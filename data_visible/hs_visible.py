@@ -6,7 +6,7 @@ LIB_PLOT = "matplotlib" # matplotlib, plotext, termplotlib, asciichartpy
 
 logits_dict = None
 with open("./token0_hs_logits_by_layer.pt", "rb") as f:
-    logits_dict = torch.load(f)
+    logits_dict = torch.load(f, map_location=torch.device('cpu'))
 
 for i_layer in range(19):
     hs = logits_dict[f"layer{i_layer}_hs"]
@@ -22,15 +22,16 @@ for i_layer in range(19):
         if LIB_PLOT == "matplotlib":
             import matplotlib.pyplot as plt
             import numpy as np
+
             plt.figure(figsize=(8, 5))
-            x = np.random.rand(50)
-            y = np.random.rand(50)
-            colors = np.random.rand(50)
-            sizes = 1000 * np.random.rand(50)
-            plt.scatter(x, y, c=colors, s=sizes, alpha=0.5)
-            plt.title('随机散点图')
-            plt.xlabel('X值')
-            plt.ylabel('Y值')
+           
+            # colors = np.random.rand(50)
+            # sizes = 1000 * np.random.rand(50)
+            # plt.scatter(x, y, c=colors, s=sizes, alpha=0.5)
+            plt.scatter(x_pos, y_value)
+            plt.title('HS on POS')
+            plt.xlabel('POS')
+            plt.ylabel('HS')
             plt.colorbar()
             plt.show()
         elif LIB_PLOT == "plotext":
