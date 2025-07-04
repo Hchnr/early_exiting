@@ -1,5 +1,6 @@
 *.safetensors
 *.model
+*.pt
 
 __pycache__
 *.so
