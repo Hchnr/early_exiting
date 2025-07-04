@@ -793,10 +793,6 @@ class Ernie4_5_Model(Ernie4_5_PretrainedModel):
         next_decoder_cache = () if use_cache else None
 
         for idx, (decoder_layer) in enumerate(self.layers):
-            if idx == 1:
-                tmp = hidden_states
-                tmp[:,:,0], tmp[:,:,1] = tmp[:,:,1].clone(), tmp[:,:,0].clone()
-
             if output_hidden_states:
                 all_hidden_states += (hidden_states,)
 
@@ -814,13 +810,6 @@ class Ernie4_5_Model(Ernie4_5_PretrainedModel):
                 past_key_value,
                 use_cache,
             )
-
-            if idx == 1:
-                if isinstance(layer_outputs, (tuple, list)):
-                    tmp = layer_outputs[0]
-                else:
-                    tmp = layer_outputs
-                tmp[:,:,0], tmp[:,:,1] = tmp[:,:,1].clone(), tmp[:,:,0].clone()
 
             if isinstance(layer_outputs, (tuple, list)):
                 hidden_states = layer_outputs[0]
