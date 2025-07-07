@@ -16,7 +16,7 @@ NEW_MAX_TOKENS = 32
 USE_CACHE = True
 DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
-TOPK = 4
+TOPK = 2
 
 def timer_decorator(func):
     @wraps(func)
@@ -69,14 +69,18 @@ def generate(model, tokenizer):
     hidden_states = out["hidden_states"]
     topk_value, topk_pos = [], []
     for i_tokens, token_hidden_state in enumerate(hidden_states):
+        print("-" * 80)
+        print(f"token-{i_tokens}")
         out = {}
         for i_layer, layer_hidden_state in enumerate(token_hidden_state):
             # layer_hidden_state: [b, num_token, h] -> [1, 4, 1024]
             last_token_hidden_state = layer_hidden_state[:,-1,:]
             # out_logits = model.lm_head(last_token_hidden_state)
-            last_token_hidden_state.topk(TOPK, dim=-1, sorted=True)
-            import pdb; pdb.set_trace()
-
+            hs_topk = last_token_hidden_state.topk(TOPK, dim=-1, sorted=True)
+            hs_topk_v = hs_topk.values.tolist()
+            hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
+            print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
+            # import pdb; pdb.set_trace()
 
     return generated_ids
 
