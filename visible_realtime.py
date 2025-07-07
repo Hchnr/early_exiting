@@ -5,9 +5,11 @@ import torch
 
 from ERNIE45_03B_Base.modeling_ernie4_5 import Ernie4_5_ForCausalLM
 from ERNIE45_03B_Base.tokenization_ernie4_5 import Ernie4_5_Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 MODEL_PATH = "/share/project/hcr/early_exiting/ERNIE45_03B_Base"
+MODEL_PATH = "/share/project/hcr/models/Qwen/Qwen3-0.6B"
 PRINT_TIME = False
 TEST_NUM = 1
 PRINT_LOGITS = False
@@ -16,7 +18,7 @@ NEW_MAX_TOKENS = 32
 USE_CACHE = True
 DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
-TOPK = 2
+TOPK = 32
 
 def timer_decorator(func):
     @wraps(func)
@@ -35,7 +37,8 @@ def timer_decorator(func):
 
 @timer_decorator
 def load_model():
-    model = Ernie4_5_ForCausalLM.from_pretrained(MODEL_PATH, trust_remote_code=True)
+    # model = Ernie4_5_ForCausalLM.from_pretrained(MODEL_PATH, trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, trust_remote_code=True)
     model = model.cuda()
     model.eval()
     return model
@@ -43,7 +46,8 @@ def load_model():
 
 @timer_decorator
 def load_tokenizer():
-    tokenizer = Ernie4_5_Tokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+    # tokenizer = Ernie4_5_Tokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
     return tokenizer
 
 
