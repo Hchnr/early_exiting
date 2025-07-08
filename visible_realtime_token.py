@@ -70,11 +70,14 @@ def generate(model, tokenizer):
         for i, logit in enumerate(logits):
             print(f"logits[{i}].shape: {logit.shape}")
             print(f"logits.topk(8): {logit.topk(8, dim=-1)[0].squeeze().tolist()}")
+    # hidden_states: tuple(32, 29) tensor(1,4,1024)
+    # hidden_states: tuple(n_max_new_tokens, n_layer+1) tensor(b,s,h)
     hidden_states = out["hidden_states"]
     topk_value, topk_pos = [], []
+    token_view = [[f"Layer-{i:02}"] for i in range(len(hidden_states[0]))]
     for i_tokens, token_hidden_state in enumerate(hidden_states):
-        print("-" * 80)
-        print(f"token-{i_tokens}")
+        # print("-" * 80)
+        # print(f"token-{i_tokens}")
         out = {}
         for i_layer, layer_hidden_state in enumerate(token_hidden_state):
             # layer_hidden_state: [b, num_token, h] -> [1, 4, 1024]
@@ -83,8 +86,17 @@ def generate(model, tokenizer):
             hs_topk = last_token_hidden_state.topk(TOPK, dim=-1, sorted=True)
             hs_topk_v = hs_topk.values.tolist()
             hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
-            print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
-            # import pdb; pdb.set_trace()
+            # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
+
+            if i_layer == 28:
+                last_token_hidden_state_norm = last_token_hidden_state
+            else:
+                last_token_hidden_state_norm = model.model.norm(last_token_hidden_state)
+            logits = model.lm_head(last_token_hidden_state_norm)
+            token_id = logits.topk(1).indices[0][0].item()
+            token = tokenizer.decode(token_id)
+            token_view[i_layer].append(token)
+    print(f"{token_view}")
 
     return generated_ids
 
