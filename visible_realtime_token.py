@@ -1,5 +1,6 @@
 import time
 from functools import wraps
+import csv
 
 import torch
 
@@ -74,7 +75,8 @@ def generate(model, tokenizer):
     # hidden_states: tuple(n_max_new_tokens, n_layer+1) tensor(b,s,h)
     hidden_states = out["hidden_states"]
     topk_value, topk_pos = [], []
-    token_view = [[f"Layer-{i:02}"] for i in range(len(hidden_states[0]))]
+    token_view_body = [[f"Layer-{i:02}"] for i in range(len(hidden_states[0]))]
+    token_view_header = ["Index(T&L)", *[f"Token-{i:02}" for i in range(len(hidden_states))]]
     for i_tokens, token_hidden_state in enumerate(hidden_states):
         # print("-" * 80)
         # print(f"token-{i_tokens}")
@@ -95,9 +97,12 @@ def generate(model, tokenizer):
             logits = model.lm_head(last_token_hidden_state_norm)
             token_id = logits.topk(1).indices[0][0].item()
             token = tokenizer.decode(token_id)
-            token_view[i_layer].append(token)
-    print(f"{token_view}")
-
+            token_view_body[i_layer].append(f"<{token}>")
+    token_view = [token_view_header, *token_view_body]
+    print(f"{token_view_body}")
+    with open("layer_token.csv", 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerows(token_view)
     return generated_ids
 
 
