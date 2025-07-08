@@ -97,7 +97,7 @@ def generate(model, tokenizer):
             logits = model.lm_head(last_token_hidden_state_norm)
             token_id = logits.topk(1).indices[0][0].item()
             token = tokenizer.decode(token_id)
-            token_view_body[i_layer].append(f"<{token}>")
+            token_view_body[i_layer].append(repr(f"<{token}>"))
     token_view = [token_view_header, *token_view_body]
     print(f"{token_view_body}")
     with open("layer_token.csv", 'w', newline='', encoding='utf-8') as file:
