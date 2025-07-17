@@ -108,7 +108,7 @@ def generate(model, tokenizer):
             hs_topk_v = hs_topk.values.tolist()
             hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
             # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
-            print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)}")
+            print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)[0].item()}")
 
             if i_layer == 28:
                 last_token_hidden_state_norm = last_token_hidden_state

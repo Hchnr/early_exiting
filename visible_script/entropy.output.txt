@@ -2,994 +2,994 @@
 Origin Test 1/1
 --------------------------------------------------------------------------------
 token-0
-layer- 0 hs entropy: tensor([41.1005], device='cuda:0')
-layer- 1 hs entropy: tensor([97.8341], device='cuda:0')
-layer- 2 hs entropy: tensor([109.2450], device='cuda:0')
-layer- 3 hs entropy: tensor([128.7418], device='cuda:0')
-layer- 4 hs entropy: tensor([134.4715], device='cuda:0')
-layer- 5 hs entropy: tensor([127.9875], device='cuda:0')
-layer- 6 hs entropy: tensor([139.0015], device='cuda:0')
-layer- 7 hs entropy: tensor([129.9197], device='cuda:0')
-layer- 8 hs entropy: tensor([131.6246], device='cuda:0')
-layer- 9 hs entropy: tensor([135.3593], device='cuda:0')
-layer-10 hs entropy: tensor([127.8846], device='cuda:0')
-layer-11 hs entropy: tensor([126.0766], device='cuda:0')
-layer-12 hs entropy: tensor([114.8121], device='cuda:0')
-layer-13 hs entropy: tensor([119.8404], device='cuda:0')
-layer-14 hs entropy: tensor([118.1489], device='cuda:0')
-layer-15 hs entropy: tensor([112.2194], device='cuda:0')
-layer-16 hs entropy: tensor([91.8371], device='cuda:0')
-layer-17 hs entropy: tensor([80.5486], device='cuda:0')
-layer-18 hs entropy: tensor([62.1939], device='cuda:0')
-layer-19 hs entropy: tensor([45.3078], device='cuda:0')
-layer-20 hs entropy: tensor([34.2654], device='cuda:0')
-layer-21 hs entropy: tensor([24.5829], device='cuda:0')
-layer-22 hs entropy: tensor([26.0633], device='cuda:0')
-layer-23 hs entropy: tensor([22.2302], device='cuda:0')
-layer-24 hs entropy: tensor([19.9884], device='cuda:0')
-layer-25 hs entropy: tensor([13.3261], device='cuda:0')
-layer-26 hs entropy: tensor([18.9659], device='cuda:0')
-layer-27 hs entropy: tensor([18.2473], device='cuda:0')
-layer-28 hs entropy: tensor([62.2663], device='cuda:0')
+layer- 0 hs entropy: 41.100494384765625
+layer- 1 hs entropy: 97.8341064453125
+layer- 2 hs entropy: 109.2449722290039
+layer- 3 hs entropy: 128.74179077148438
+layer- 4 hs entropy: 134.4715118408203
+layer- 5 hs entropy: 127.98748779296875
+layer- 6 hs entropy: 139.00146484375
+layer- 7 hs entropy: 129.91970825195312
+layer- 8 hs entropy: 131.62460327148438
+layer- 9 hs entropy: 135.35926818847656
+layer-10 hs entropy: 127.88458251953125
+layer-11 hs entropy: 126.07662963867188
+layer-12 hs entropy: 114.81212615966797
+layer-13 hs entropy: 119.84042358398438
+layer-14 hs entropy: 118.14891052246094
+layer-15 hs entropy: 112.21939086914062
+layer-16 hs entropy: 91.83705139160156
+layer-17 hs entropy: 80.54855346679688
+layer-18 hs entropy: 62.19386291503906
+layer-19 hs entropy: 45.307762145996094
+layer-20 hs entropy: 34.265411376953125
+layer-21 hs entropy: 24.582910537719727
+layer-22 hs entropy: 26.063270568847656
+layer-23 hs entropy: 22.230243682861328
+layer-24 hs entropy: 19.988449096679688
+layer-25 hs entropy: 13.326070785522461
+layer-26 hs entropy: 18.965944290161133
+layer-27 hs entropy: 18.247257232666016
+layer-28 hs entropy: 62.266258239746094
 --------------------------------------------------------------------------------
 token-1
-layer- 0 hs entropy: tensor([40.4500], device='cuda:0')
-layer- 1 hs entropy: tensor([111.6130], device='cuda:0')
-layer- 2 hs entropy: tensor([128.3116], device='cuda:0')
-layer- 3 hs entropy: tensor([135.3933], device='cuda:0')
-layer- 4 hs entropy: tensor([138.2169], device='cuda:0')
-layer- 5 hs entropy: tensor([128.8800], device='cuda:0')
-layer- 6 hs entropy: tensor([138.9034], device='cuda:0')
-layer- 7 hs entropy: tensor([128.6700], device='cuda:0')
-layer- 8 hs entropy: tensor([116.5339], device='cuda:0')
-layer- 9 hs entropy: tensor([117.7121], device='cuda:0')
-layer-10 hs entropy: tensor([111.2831], device='cuda:0')
-layer-11 hs entropy: tensor([69.7258], device='cuda:0')
-layer-12 hs entropy: tensor([54.5690], device='cuda:0')
-layer-13 hs entropy: tensor([51.6601], device='cuda:0')
-layer-14 hs entropy: tensor([49.2452], device='cuda:0')
-layer-15 hs entropy: tensor([101.0787], device='cuda:0')
-layer-16 hs entropy: tensor([93.2588], device='cuda:0')
-layer-17 hs entropy: tensor([63.1945], device='cuda:0')
-layer-18 hs entropy: tensor([56.9543], device='cuda:0')
-layer-19 hs entropy: tensor([55.8990], device='cuda:0')
-layer-20 hs entropy: tensor([36.4587], device='cuda:0')
-layer-21 hs entropy: tensor([24.7906], device='cuda:0')
-layer-22 hs entropy: tensor([23.5344], device='cuda:0')
-layer-23 hs entropy: tensor([19.6336], device='cuda:0')
-layer-24 hs entropy: tensor([12.9390], device='cuda:0')
-layer-25 hs entropy: tensor([13.1883], device='cuda:0')
-layer-26 hs entropy: tensor([12.1218], device='cuda:0')
-layer-27 hs entropy: tensor([12.7066], device='cuda:0')
-layer-28 hs entropy: tensor([49.6160], device='cuda:0')
+layer- 0 hs entropy: 40.45001983642578
+layer- 1 hs entropy: 111.61299896240234
+layer- 2 hs entropy: 128.3116455078125
+layer- 3 hs entropy: 135.39334106445312
+layer- 4 hs entropy: 138.21693420410156
+layer- 5 hs entropy: 128.8799591064453
+layer- 6 hs entropy: 138.90335083007812
+layer- 7 hs entropy: 128.6699676513672
+layer- 8 hs entropy: 116.53387451171875
+layer- 9 hs entropy: 117.71210479736328
+layer-10 hs entropy: 111.28313446044922
+layer-11 hs entropy: 69.72579956054688
+layer-12 hs entropy: 54.56904220581055
+layer-13 hs entropy: 51.660064697265625
+layer-14 hs entropy: 49.245235443115234
+layer-15 hs entropy: 101.07865905761719
+layer-16 hs entropy: 93.2588119506836
+layer-17 hs entropy: 63.194461822509766
+layer-18 hs entropy: 56.954254150390625
+layer-19 hs entropy: 55.89897155761719
+layer-20 hs entropy: 36.45871353149414
+layer-21 hs entropy: 24.790592193603516
+layer-22 hs entropy: 23.534440994262695
+layer-23 hs entropy: 19.633575439453125
+layer-24 hs entropy: 12.939035415649414
+layer-25 hs entropy: 13.188264846801758
+layer-26 hs entropy: 12.121841430664062
+layer-27 hs entropy: 12.70661735534668
+layer-28 hs entropy: 49.61595916748047
 --------------------------------------------------------------------------------
 token-2
-layer- 0 hs entropy: tensor([40.6795], device='cuda:0')
-layer- 1 hs entropy: tensor([108.9483], device='cuda:0')
-layer- 2 hs entropy: tensor([118.2848], device='cuda:0')
-layer- 3 hs entropy: tensor([131.9895], device='cuda:0')
-layer- 4 hs entropy: tensor([136.0656], device='cuda:0')
-layer- 5 hs entropy: tensor([131.1424], device='cuda:0')
-layer- 6 hs entropy: tensor([130.1619], device='cuda:0')
-layer- 7 hs entropy: tensor([121.0833], device='cuda:0')
-layer- 8 hs entropy: tensor([77.9545], device='cuda:0')
-layer- 9 hs entropy: tensor([103.0339], device='cuda:0')
-layer-10 hs entropy: tensor([100.6236], device='cuda:0')
-layer-11 hs entropy: tensor([62.3249], device='cuda:0')
-layer-12 hs entropy: tensor([48.4828], device='cuda:0')
-layer-13 hs entropy: tensor([43.6805], device='cuda:0')
-layer-14 hs entropy: tensor([42.7067], device='cuda:0')
-layer-15 hs entropy: tensor([82.7978], device='cuda:0')
-layer-16 hs entropy: tensor([71.1421], device='cuda:0')
-layer-17 hs entropy: tensor([67.4428], device='cuda:0')
-layer-18 hs entropy: tensor([49.8918], device='cuda:0')
-layer-19 hs entropy: tensor([38.2054], device='cuda:0')
-layer-20 hs entropy: tensor([32.0135], device='cuda:0')
-layer-21 hs entropy: tensor([21.5437], device='cuda:0')
-layer-22 hs entropy: tensor([22.9089], device='cuda:0')
-layer-23 hs entropy: tensor([17.1621], device='cuda:0')
-layer-24 hs entropy: tensor([18.5039], device='cuda:0')
-layer-25 hs entropy: tensor([16.6115], device='cuda:0')
-layer-26 hs entropy: tensor([14.7354], device='cuda:0')
-layer-27 hs entropy: tensor([12.6957], device='cuda:0')
-layer-28 hs entropy: tensor([57.9414], device='cuda:0')
+layer- 0 hs entropy: 40.67948532104492
+layer- 1 hs entropy: 108.94831085205078
+layer- 2 hs entropy: 118.28475952148438
+layer- 3 hs entropy: 131.989501953125
+layer- 4 hs entropy: 136.06564331054688
+layer- 5 hs entropy: 131.14242553710938
+layer- 6 hs entropy: 130.16189575195312
+layer- 7 hs entropy: 121.08333587646484
+layer- 8 hs entropy: 77.95452880859375
+layer- 9 hs entropy: 103.03385925292969
+layer-10 hs entropy: 100.62355041503906
+layer-11 hs entropy: 62.32486343383789
+layer-12 hs entropy: 48.482765197753906
+layer-13 hs entropy: 43.68046569824219
+layer-14 hs entropy: 42.7066764831543
+layer-15 hs entropy: 82.79783630371094
+layer-16 hs entropy: 71.14213562011719
+layer-17 hs entropy: 67.44281005859375
+layer-18 hs entropy: 49.891822814941406
+layer-19 hs entropy: 38.20537185668945
+layer-20 hs entropy: 32.01350021362305
+layer-21 hs entropy: 21.543684005737305
+layer-22 hs entropy: 22.908889770507812
+layer-23 hs entropy: 17.162057876586914
+layer-24 hs entropy: 18.50388526916504
+layer-25 hs entropy: 16.611492156982422
+layer-26 hs entropy: 14.73544692993164
+layer-27 hs entropy: 12.695749282836914
+layer-28 hs entropy: 57.941436767578125
 --------------------------------------------------------------------------------
 token-3
-layer- 0 hs entropy: tensor([40.9061], device='cuda:0')
-layer- 1 hs entropy: tensor([123.4768], device='cuda:0')
-layer- 2 hs entropy: tensor([142.7512], device='cuda:0')
-layer- 3 hs entropy: tensor([141.5341], device='cuda:0')
-layer- 4 hs entropy: tensor([137.5431], device='cuda:0')
-layer- 5 hs entropy: tensor([140.3113], device='cuda:0')
-layer- 6 hs entropy: tensor([137.4610], device='cuda:0')
-layer- 7 hs entropy: tensor([112.5192], device='cuda:0')
-layer- 8 hs entropy: tensor([116.3533], device='cuda:0')
-layer- 9 hs entropy: tensor([114.3813], device='cuda:0')
-layer-10 hs entropy: tensor([110.8962], device='cuda:0')
-layer-11 hs entropy: tensor([100.3488], device='cuda:0')
-layer-12 hs entropy: tensor([108.0797], device='cuda:0')
-layer-13 hs entropy: tensor([103.1498], device='cuda:0')
-layer-14 hs entropy: tensor([100.4213], device='cuda:0')
-layer-15 hs entropy: tensor([85.9393], device='cuda:0')
-layer-16 hs entropy: tensor([82.2747], device='cuda:0')
-layer-17 hs entropy: tensor([67.9082], device='cuda:0')
-layer-18 hs entropy: tensor([53.2742], device='cuda:0')
-layer-19 hs entropy: tensor([49.1720], device='cuda:0')
-layer-20 hs entropy: tensor([40.6702], device='cuda:0')
-layer-21 hs entropy: tensor([31.3882], device='cuda:0')
-layer-22 hs entropy: tensor([25.7753], device='cuda:0')
-layer-23 hs entropy: tensor([15.8265], device='cuda:0')
-layer-24 hs entropy: tensor([16.2753], device='cuda:0')
-layer-25 hs entropy: tensor([10.8845], device='cuda:0')
-layer-26 hs entropy: tensor([12.7159], device='cuda:0')
-layer-27 hs entropy: tensor([10.6386], device='cuda:0')
-layer-28 hs entropy: tensor([57.0682], device='cuda:0')
+layer- 0 hs entropy: 40.906063079833984
+layer- 1 hs entropy: 123.47675323486328
+layer- 2 hs entropy: 142.751220703125
+layer- 3 hs entropy: 141.5340576171875
+layer- 4 hs entropy: 137.5430908203125
+layer- 5 hs entropy: 140.31126403808594
+layer- 6 hs entropy: 137.46096801757812
+layer- 7 hs entropy: 112.51921081542969
+layer- 8 hs entropy: 116.35328674316406
+layer- 9 hs entropy: 114.38134765625
+layer-10 hs entropy: 110.896240234375
+layer-11 hs entropy: 100.34883880615234
+layer-12 hs entropy: 108.0797119140625
+layer-13 hs entropy: 103.14983367919922
+layer-14 hs entropy: 100.42132568359375
+layer-15 hs entropy: 85.93932342529297
+layer-16 hs entropy: 82.27465057373047
+layer-17 hs entropy: 67.90824890136719
+layer-18 hs entropy: 53.27421951293945
+layer-19 hs entropy: 49.17196273803711
+layer-20 hs entropy: 40.670230865478516
+layer-21 hs entropy: 31.388233184814453
+layer-22 hs entropy: 25.775310516357422
+layer-23 hs entropy: 15.82650375366211
+layer-24 hs entropy: 16.275279998779297
+layer-25 hs entropy: 10.884500503540039
+layer-26 hs entropy: 12.715936660766602
+layer-27 hs entropy: 10.63857650756836
+layer-28 hs entropy: 57.068214416503906
 --------------------------------------------------------------------------------
 token-4
-layer- 0 hs entropy: tensor([40.1069], device='cuda:0')
-layer- 1 hs entropy: tensor([121.1236], device='cuda:0')
-layer- 2 hs entropy: tensor([130.8849], device='cuda:0')
-layer- 3 hs entropy: tensor([137.7309], device='cuda:0')
-layer- 4 hs entropy: tensor([136.2364], device='cuda:0')
-layer- 5 hs entropy: tensor([128.1360], device='cuda:0')
-layer- 6 hs entropy: tensor([120.5268], device='cuda:0')
-layer- 7 hs entropy: tensor([110.7375], device='cuda:0')
-layer- 8 hs entropy: tensor([109.9145], device='cuda:0')
-layer- 9 hs entropy: tensor([102.0622], device='cuda:0')
-layer-10 hs entropy: tensor([97.8579], device='cuda:0')
-layer-11 hs entropy: tensor([95.1059], device='cuda:0')
-layer-12 hs entropy: tensor([90.2778], device='cuda:0')
-layer-13 hs entropy: tensor([89.5261], device='cuda:0')
-layer-14 hs entropy: tensor([79.5565], device='cuda:0')
-layer-15 hs entropy: tensor([76.1967], device='cuda:0')
-layer-16 hs entropy: tensor([63.3026], device='cuda:0')
-layer-17 hs entropy: tensor([58.6081], device='cuda:0')
-layer-18 hs entropy: tensor([51.8181], device='cuda:0')
-layer-19 hs entropy: tensor([46.1917], device='cuda:0')
-layer-20 hs entropy: tensor([32.0637], device='cuda:0')
-layer-21 hs entropy: tensor([21.2329], device='cuda:0')
-layer-22 hs entropy: tensor([22.1994], device='cuda:0')
-layer-23 hs entropy: tensor([16.0485], device='cuda:0')
-layer-24 hs entropy: tensor([11.7718], device='cuda:0')
-layer-25 hs entropy: tensor([12.4217], device='cuda:0')
-layer-26 hs entropy: tensor([8.6931], device='cuda:0')
-layer-27 hs entropy: tensor([8.3006], device='cuda:0')
-layer-28 hs entropy: tensor([44.7694], device='cuda:0')
+layer- 0 hs entropy: 40.10689926147461
+layer- 1 hs entropy: 121.12362670898438
+layer- 2 hs entropy: 130.8848876953125
+layer- 3 hs entropy: 137.73085021972656
+layer- 4 hs entropy: 136.23641967773438
+layer- 5 hs entropy: 128.13604736328125
+layer- 6 hs entropy: 120.52676391601562
+layer- 7 hs entropy: 110.73746490478516
+layer- 8 hs entropy: 109.9145278930664
+layer- 9 hs entropy: 102.06218719482422
+layer-10 hs entropy: 97.85791015625
+layer-11 hs entropy: 95.10587310791016
+layer-12 hs entropy: 90.27777099609375
+layer-13 hs entropy: 89.52610778808594
+layer-14 hs entropy: 79.5565185546875
+layer-15 hs entropy: 76.19672393798828
+layer-16 hs entropy: 63.302642822265625
+layer-17 hs entropy: 58.60813522338867
+layer-18 hs entropy: 51.8181266784668
+layer-19 hs entropy: 46.19173049926758
+layer-20 hs entropy: 32.06365966796875
+layer-21 hs entropy: 21.23289680480957
+layer-22 hs entropy: 22.199382781982422
+layer-23 hs entropy: 16.04849624633789
+layer-24 hs entropy: 11.771815299987793
+layer-25 hs entropy: 12.42166519165039
+layer-26 hs entropy: 8.693082809448242
+layer-27 hs entropy: 8.300553321838379
+layer-28 hs entropy: 44.769371032714844
 --------------------------------------------------------------------------------
 token-5
-layer- 0 hs entropy: tensor([43.2005], device='cuda:0')
-layer- 1 hs entropy: tensor([138.7078], device='cuda:0')
-layer- 2 hs entropy: tensor([140.5817], device='cuda:0')
-layer- 3 hs entropy: tensor([147.0520], device='cuda:0')
-layer- 4 hs entropy: tensor([140.8050], device='cuda:0')
-layer- 5 hs entropy: tensor([133.8811], device='cuda:0')
-layer- 6 hs entropy: tensor([127.3907], device='cuda:0')
-layer- 7 hs entropy: tensor([112.6445], device='cuda:0')
-layer- 8 hs entropy: tensor([106.2330], device='cuda:0')
-layer- 9 hs entropy: tensor([105.1715], device='cuda:0')
-layer-10 hs entropy: tensor([100.4047], device='cuda:0')
-layer-11 hs entropy: tensor([98.4709], device='cuda:0')
-layer-12 hs entropy: tensor([95.9153], device='cuda:0')
-layer-13 hs entropy: tensor([91.1248], device='cuda:0')
-layer-14 hs entropy: tensor([82.4462], device='cuda:0')
-layer-15 hs entropy: tensor([82.8930], device='cuda:0')
-layer-16 hs entropy: tensor([71.2369], device='cuda:0')
-layer-17 hs entropy: tensor([67.6837], device='cuda:0')
-layer-18 hs entropy: tensor([48.9124], device='cuda:0')
-layer-19 hs entropy: tensor([37.0085], device='cuda:0')
-layer-20 hs entropy: tensor([29.5204], device='cuda:0')
-layer-21 hs entropy: tensor([24.5907], device='cuda:0')
-layer-22 hs entropy: tensor([19.8226], device='cuda:0')
-layer-23 hs entropy: tensor([18.9148], device='cuda:0')
-layer-24 hs entropy: tensor([16.7511], device='cuda:0')
-layer-25 hs entropy: tensor([13.8691], device='cuda:0')
-layer-26 hs entropy: tensor([12.1620], device='cuda:0')
-layer-27 hs entropy: tensor([12.4344], device='cuda:0')
-layer-28 hs entropy: tensor([44.9547], device='cuda:0')
+layer- 0 hs entropy: 43.20050811767578
+layer- 1 hs entropy: 138.707763671875
+layer- 2 hs entropy: 140.5817108154297
+layer- 3 hs entropy: 147.052001953125
+layer- 4 hs entropy: 140.80496215820312
+layer- 5 hs entropy: 133.88113403320312
+layer- 6 hs entropy: 127.39066314697266
+layer- 7 hs entropy: 112.64449310302734
+layer- 8 hs entropy: 106.23303985595703
+layer- 9 hs entropy: 105.17146301269531
+layer-10 hs entropy: 100.40470123291016
+layer-11 hs entropy: 98.47090148925781
+layer-12 hs entropy: 95.915283203125
+layer-13 hs entropy: 91.12484741210938
+layer-14 hs entropy: 82.44623565673828
+layer-15 hs entropy: 82.8929672241211
+layer-16 hs entropy: 71.23694610595703
+layer-17 hs entropy: 67.68374633789062
+layer-18 hs entropy: 48.91242218017578
+layer-19 hs entropy: 37.008522033691406
+layer-20 hs entropy: 29.520404815673828
+layer-21 hs entropy: 24.590707778930664
+layer-22 hs entropy: 19.82259178161621
+layer-23 hs entropy: 18.914806365966797
+layer-24 hs entropy: 16.751052856445312
+layer-25 hs entropy: 13.869091033935547
+layer-26 hs entropy: 12.161956787109375
+layer-27 hs entropy: 12.434412002563477
+layer-28 hs entropy: 44.954742431640625
 --------------------------------------------------------------------------------
 token-6
-layer- 0 hs entropy: tensor([40.8291], device='cuda:0')
-layer- 1 hs entropy: tensor([126.0427], device='cuda:0')
-layer- 2 hs entropy: tensor([135.3845], device='cuda:0')
-layer- 3 hs entropy: tensor([135.3336], device='cuda:0')
-layer- 4 hs entropy: tensor([143.0606], device='cuda:0')
-layer- 5 hs entropy: tensor([129.6933], device='cuda:0')
-layer- 6 hs entropy: tensor([136.5318], device='cuda:0')
-layer- 7 hs entropy: tensor([128.2973], device='cuda:0')
-layer- 8 hs entropy: tensor([132.7565], device='cuda:0')
-layer- 9 hs entropy: tensor([118.7991], device='cuda:0')
-layer-10 hs entropy: tensor([106.3538], device='cuda:0')
-layer-11 hs entropy: tensor([104.1028], device='cuda:0')
-layer-12 hs entropy: tensor([103.2587], device='cuda:0')
-layer-13 hs entropy: tensor([96.1100], device='cuda:0')
-layer-14 hs entropy: tensor([105.5686], device='cuda:0')
-layer-15 hs entropy: tensor([101.3070], device='cuda:0')
-layer-16 hs entropy: tensor([86.6063], device='cuda:0')
-layer-17 hs entropy: tensor([72.9775], device='cuda:0')
-layer-18 hs entropy: tensor([47.4912], device='cuda:0')
-layer-19 hs entropy: tensor([44.0347], device='cuda:0')
-layer-20 hs entropy: tensor([38.0945], device='cuda:0')
-layer-21 hs entropy: tensor([25.0455], device='cuda:0')
-layer-22 hs entropy: tensor([16.9843], device='cuda:0')
-layer-23 hs entropy: tensor([15.9157], device='cuda:0')
-layer-24 hs entropy: tensor([12.4670], device='cuda:0')
-layer-25 hs entropy: tensor([15.0858], device='cuda:0')
-layer-26 hs entropy: tensor([11.9893], device='cuda:0')
-layer-27 hs entropy: tensor([11.1048], device='cuda:0')
-layer-28 hs entropy: tensor([46.0675], device='cuda:0')
+layer- 0 hs entropy: 40.82910919189453
+layer- 1 hs entropy: 126.042724609375
+layer- 2 hs entropy: 135.38449096679688
+layer- 3 hs entropy: 135.33360290527344
+layer- 4 hs entropy: 143.06057739257812
+layer- 5 hs entropy: 129.69326782226562
+layer- 6 hs entropy: 136.53179931640625
+layer- 7 hs entropy: 128.29730224609375
+layer- 8 hs entropy: 132.75648498535156
+layer- 9 hs entropy: 118.79910278320312
+layer-10 hs entropy: 106.35377502441406
+layer-11 hs entropy: 104.10282135009766
+layer-12 hs entropy: 103.25872802734375
+layer-13 hs entropy: 96.10997772216797
+layer-14 hs entropy: 105.56864929199219
+layer-15 hs entropy: 101.30703735351562
+layer-16 hs entropy: 86.60626220703125
+layer-17 hs entropy: 72.97750854492188
+layer-18 hs entropy: 47.49122619628906
+layer-19 hs entropy: 44.034664154052734
+layer-20 hs entropy: 38.0944938659668
+layer-21 hs entropy: 25.045454025268555
+layer-22 hs entropy: 16.98427963256836
+layer-23 hs entropy: 15.91567611694336
+layer-24 hs entropy: 12.466983795166016
+layer-25 hs entropy: 15.085773468017578
+layer-26 hs entropy: 11.989320755004883
+layer-27 hs entropy: 11.104785919189453
+layer-28 hs entropy: 46.067535400390625
 --------------------------------------------------------------------------------
 token-7
-layer- 0 hs entropy: tensor([41.5231], device='cuda:0')
-layer- 1 hs entropy: tensor([109.6451], device='cuda:0')
-layer- 2 hs entropy: tensor([121.9163], device='cuda:0')
-layer- 3 hs entropy: tensor([126.3399], device='cuda:0')
-layer- 4 hs entropy: tensor([143.3169], device='cuda:0')
-layer- 5 hs entropy: tensor([134.6441], device='cuda:0')
-layer- 6 hs entropy: tensor([136.5058], device='cuda:0')
-layer- 7 hs entropy: tensor([132.4376], device='cuda:0')
-layer- 8 hs entropy: tensor([121.9692], device='cuda:0')
-layer- 9 hs entropy: tensor([120.8820], device='cuda:0')
-layer-10 hs entropy: tensor([104.7561], device='cuda:0')
-layer-11 hs entropy: tensor([98.6993], device='cuda:0')
-layer-12 hs entropy: tensor([95.1495], device='cuda:0')
-layer-13 hs entropy: tensor([88.7536], device='cuda:0')
-layer-14 hs entropy: tensor([82.6144], device='cuda:0')
-layer-15 hs entropy: tensor([88.4224], device='cuda:0')
-layer-16 hs entropy: tensor([82.2512], device='cuda:0')
-layer-17 hs entropy: tensor([73.3204], device='cuda:0')
-layer-18 hs entropy: tensor([56.0301], device='cuda:0')
-layer-19 hs entropy: tensor([40.2320], device='cuda:0')
-layer-20 hs entropy: tensor([29.5501], device='cuda:0')
-layer-21 hs entropy: tensor([24.2554], device='cuda:0')
-layer-22 hs entropy: tensor([15.2787], device='cuda:0')
-layer-23 hs entropy: tensor([15.9122], device='cuda:0')
-layer-24 hs entropy: tensor([12.9583], device='cuda:0')
-layer-25 hs entropy: tensor([14.2067], device='cuda:0')
-layer-26 hs entropy: tensor([14.7396], device='cuda:0')
-layer-27 hs entropy: tensor([13.2729], device='cuda:0')
-layer-28 hs entropy: tensor([48.1761], device='cuda:0')
+layer- 0 hs entropy: 41.523094177246094
+layer- 1 hs entropy: 109.64511108398438
+layer- 2 hs entropy: 121.91626739501953
+layer- 3 hs entropy: 126.33985900878906
+layer- 4 hs entropy: 143.31690979003906
+layer- 5 hs entropy: 134.6440887451172
+layer- 6 hs entropy: 136.50579833984375
+layer- 7 hs entropy: 132.4375762939453
+layer- 8 hs entropy: 121.96922302246094
+layer- 9 hs entropy: 120.88198852539062
+layer-10 hs entropy: 104.756103515625
+layer-11 hs entropy: 98.6993408203125
+layer-12 hs entropy: 95.14949035644531
+layer-13 hs entropy: 88.75363159179688
+layer-14 hs entropy: 82.61444091796875
+layer-15 hs entropy: 88.42235565185547
+layer-16 hs entropy: 82.25117492675781
+layer-17 hs entropy: 73.3204345703125
+layer-18 hs entropy: 56.03008270263672
+layer-19 hs entropy: 40.231964111328125
+layer-20 hs entropy: 29.55014991760254
+layer-21 hs entropy: 24.255380630493164
+layer-22 hs entropy: 15.278663635253906
+layer-23 hs entropy: 15.91220760345459
+layer-24 hs entropy: 12.958272933959961
+layer-25 hs entropy: 14.206664085388184
+layer-26 hs entropy: 14.739628791809082
+layer-27 hs entropy: 13.272899627685547
+layer-28 hs entropy: 48.17610168457031
 --------------------------------------------------------------------------------
 token-8
-layer- 0 hs entropy: tensor([40.5376], device='cuda:0')
-layer- 1 hs entropy: tensor([122.6497], device='cuda:0')
-layer- 2 hs entropy: tensor([127.6605], device='cuda:0')
-layer- 3 hs entropy: tensor([129.4379], device='cuda:0')
-layer- 4 hs entropy: tensor([128.8032], device='cuda:0')
-layer- 5 hs entropy: tensor([123.9638], device='cuda:0')
-layer- 6 hs entropy: tensor([130.9105], device='cuda:0')
-layer- 7 hs entropy: tensor([114.5981], device='cuda:0')
-layer- 8 hs entropy: tensor([110.7064], device='cuda:0')
-layer- 9 hs entropy: tensor([113.5520], device='cuda:0')
-layer-10 hs entropy: tensor([106.7750], device='cuda:0')
-layer-11 hs entropy: tensor([90.4943], device='cuda:0')
-layer-12 hs entropy: tensor([92.8188], device='cuda:0')
-layer-13 hs entropy: tensor([86.0835], device='cuda:0')
-layer-14 hs entropy: tensor([80.8531], device='cuda:0')
-layer-15 hs entropy: tensor([75.4557], device='cuda:0')
-layer-16 hs entropy: tensor([77.0753], device='cuda:0')
-layer-17 hs entropy: tensor([58.9304], device='cuda:0')
-layer-18 hs entropy: tensor([48.7049], device='cuda:0')
-layer-19 hs entropy: tensor([40.5133], device='cuda:0')
-layer-20 hs entropy: tensor([32.8040], device='cuda:0')
-layer-21 hs entropy: tensor([25.5654], device='cuda:0')
-layer-22 hs entropy: tensor([14.0753], device='cuda:0')
-layer-23 hs entropy: tensor([14.9635], device='cuda:0')
-layer-24 hs entropy: tensor([15.0360], device='cuda:0')
-layer-25 hs entropy: tensor([11.0069], device='cuda:0')
-layer-26 hs entropy: tensor([12.8986], device='cuda:0')
-layer-27 hs entropy: tensor([12.8480], device='cuda:0')
-layer-28 hs entropy: tensor([47.1634], device='cuda:0')
+layer- 0 hs entropy: 40.53762435913086
+layer- 1 hs entropy: 122.64965057373047
+layer- 2 hs entropy: 127.66046142578125
+layer- 3 hs entropy: 129.43789672851562
+layer- 4 hs entropy: 128.8031768798828
+layer- 5 hs entropy: 123.96377563476562
+layer- 6 hs entropy: 130.9105224609375
+layer- 7 hs entropy: 114.59809875488281
+layer- 8 hs entropy: 110.70642852783203
+layer- 9 hs entropy: 113.55197143554688
+layer-10 hs entropy: 106.7750015258789
+layer-11 hs entropy: 90.4942855834961
+layer-12 hs entropy: 92.81883239746094
+layer-13 hs entropy: 86.08351135253906
+layer-14 hs entropy: 80.85311889648438
+layer-15 hs entropy: 75.45571899414062
+layer-16 hs entropy: 77.0753173828125
+layer-17 hs entropy: 58.930442810058594
+layer-18 hs entropy: 48.70491027832031
+layer-19 hs entropy: 40.51332092285156
+layer-20 hs entropy: 32.804039001464844
+layer-21 hs entropy: 25.565406799316406
+layer-22 hs entropy: 14.075323104858398
+layer-23 hs entropy: 14.96352767944336
+layer-24 hs entropy: 15.035992622375488
+layer-25 hs entropy: 11.0068941116333
+layer-26 hs entropy: 12.898616790771484
+layer-27 hs entropy: 12.84799575805664
+layer-28 hs entropy: 47.163360595703125
 --------------------------------------------------------------------------------
 token-9
-layer- 0 hs entropy: tensor([37.9298], device='cuda:0')
-layer- 1 hs entropy: tensor([108.2463], device='cuda:0')
-layer- 2 hs entropy: tensor([138.1821], device='cuda:0')
-layer- 3 hs entropy: tensor([144.3745], device='cuda:0')
-layer- 4 hs entropy: tensor([144.1936], device='cuda:0')
-layer- 5 hs entropy: tensor([138.1393], device='cuda:0')
-layer- 6 hs entropy: tensor([125.6713], device='cuda:0')
-layer- 7 hs entropy: tensor([127.3752], device='cuda:0')
-layer- 8 hs entropy: tensor([123.5193], device='cuda:0')
-layer- 9 hs entropy: tensor([124.5092], device='cuda:0')
-layer-10 hs entropy: tensor([117.1827], device='cuda:0')
-layer-11 hs entropy: tensor([107.4467], device='cuda:0')
-layer-12 hs entropy: tensor([99.1933], device='cuda:0')
-layer-13 hs entropy: tensor([98.1018], device='cuda:0')
-layer-14 hs entropy: tensor([94.8665], device='cuda:0')
-layer-15 hs entropy: tensor([82.9595], device='cuda:0')
-layer-16 hs entropy: tensor([59.7337], device='cuda:0')
-layer-17 hs entropy: tensor([57.1516], device='cuda:0')
-layer-18 hs entropy: tensor([47.0442], device='cuda:0')
-layer-19 hs entropy: tensor([45.5174], device='cuda:0')
-layer-20 hs entropy: tensor([30.2271], device='cuda:0')
-layer-21 hs entropy: tensor([29.0730], device='cuda:0')
-layer-22 hs entropy: tensor([19.1910], device='cuda:0')
-layer-23 hs entropy: tensor([19.8717], device='cuda:0')
-layer-24 hs entropy: tensor([16.0872], device='cuda:0')
-layer-25 hs entropy: tensor([12.0761], device='cuda:0')
-layer-26 hs entropy: tensor([14.9031], device='cuda:0')
-layer-27 hs entropy: tensor([11.8081], device='cuda:0')
-layer-28 hs entropy: tensor([44.7003], device='cuda:0')
+layer- 0 hs entropy: 37.929840087890625
+layer- 1 hs entropy: 108.24629211425781
+layer- 2 hs entropy: 138.18212890625
+layer- 3 hs entropy: 144.37448120117188
+layer- 4 hs entropy: 144.19363403320312
+layer- 5 hs entropy: 138.13934326171875
+layer- 6 hs entropy: 125.67127227783203
+layer- 7 hs entropy: 127.3752212524414
+layer- 8 hs entropy: 123.51930236816406
+layer- 9 hs entropy: 124.50923919677734
+layer-10 hs entropy: 117.1827392578125
+layer-11 hs entropy: 107.44673156738281
+layer-12 hs entropy: 99.19325256347656
+layer-13 hs entropy: 98.10177612304688
+layer-14 hs entropy: 94.86652374267578
+layer-15 hs entropy: 82.95945739746094
+layer-16 hs entropy: 59.733673095703125
+layer-17 hs entropy: 57.151649475097656
+layer-18 hs entropy: 47.04416275024414
+layer-19 hs entropy: 45.517433166503906
+layer-20 hs entropy: 30.227096557617188
+layer-21 hs entropy: 29.072998046875
+layer-22 hs entropy: 19.190956115722656
+layer-23 hs entropy: 19.871742248535156
+layer-24 hs entropy: 16.087194442749023
+layer-25 hs entropy: 12.076129913330078
+layer-26 hs entropy: 14.903142929077148
+layer-27 hs entropy: 11.808052062988281
+layer-28 hs entropy: 44.700340270996094
 --------------------------------------------------------------------------------
 token-10
-layer- 0 hs entropy: tensor([40.6772], device='cuda:0')
-layer- 1 hs entropy: tensor([111.9765], device='cuda:0')
-layer- 2 hs entropy: tensor([121.8865], device='cuda:0')
-layer- 3 hs entropy: tensor([127.2370], device='cuda:0')
-layer- 4 hs entropy: tensor([136.3232], device='cuda:0')
-layer- 5 hs entropy: tensor([129.2608], device='cuda:0')
-layer- 6 hs entropy: tensor([128.7882], device='cuda:0')
-layer- 7 hs entropy: tensor([120.8312], device='cuda:0')
-layer- 8 hs entropy: tensor([121.0610], device='cuda:0')
-layer- 9 hs entropy: tensor([119.6893], device='cuda:0')
-layer-10 hs entropy: tensor([108.9031], device='cuda:0')
-layer-11 hs entropy: tensor([95.5264], device='cuda:0')
-layer-12 hs entropy: tensor([87.3471], device='cuda:0')
-layer-13 hs entropy: tensor([86.0866], device='cuda:0')
-layer-14 hs entropy: tensor([81.3936], device='cuda:0')
-layer-15 hs entropy: tensor([76.4967], device='cuda:0')
-layer-16 hs entropy: tensor([69.4701], device='cuda:0')
-layer-17 hs entropy: tensor([58.9014], device='cuda:0')
-layer-18 hs entropy: tensor([53.3621], device='cuda:0')
-layer-19 hs entropy: tensor([34.3000], device='cuda:0')
-layer-20 hs entropy: tensor([28.1115], device='cuda:0')
-layer-21 hs entropy: tensor([27.4553], device='cuda:0')
-layer-22 hs entropy: tensor([14.3604], device='cuda:0')
-layer-23 hs entropy: tensor([15.4347], device='cuda:0')
-layer-24 hs entropy: tensor([10.5571], device='cuda:0')
-layer-25 hs entropy: tensor([15.1592], device='cuda:0')
-layer-26 hs entropy: tensor([13.9051], device='cuda:0')
-layer-27 hs entropy: tensor([11.6207], device='cuda:0')
-layer-28 hs entropy: tensor([43.0910], device='cuda:0')
+layer- 0 hs entropy: 40.677223205566406
+layer- 1 hs entropy: 111.97645568847656
+layer- 2 hs entropy: 121.88646697998047
+layer- 3 hs entropy: 127.23699951171875
+layer- 4 hs entropy: 136.32315063476562
+layer- 5 hs entropy: 129.26080322265625
+layer- 6 hs entropy: 128.78823852539062
+layer- 7 hs entropy: 120.83116149902344
+layer- 8 hs entropy: 121.06095123291016
+layer- 9 hs entropy: 119.68926239013672
+layer-10 hs entropy: 108.90310668945312
+layer-11 hs entropy: 95.52638244628906
+layer-12 hs entropy: 87.34706115722656
+layer-13 hs entropy: 86.08659362792969
+layer-14 hs entropy: 81.39360046386719
+layer-15 hs entropy: 76.49673461914062
+layer-16 hs entropy: 69.47006225585938
+layer-17 hs entropy: 58.90140151977539
+layer-18 hs entropy: 53.36211395263672
+layer-19 hs entropy: 34.3000373840332
+layer-20 hs entropy: 28.11154556274414
+layer-21 hs entropy: 27.45528221130371
+layer-22 hs entropy: 14.360441207885742
+layer-23 hs entropy: 15.434738159179688
+layer-24 hs entropy: 10.557146072387695
+layer-25 hs entropy: 15.159191131591797
+layer-26 hs entropy: 13.905071258544922
+layer-27 hs entropy: 11.620742797851562
+layer-28 hs entropy: 43.09100341796875
 --------------------------------------------------------------------------------
 token-11
-layer- 0 hs entropy: tensor([40.4500], device='cuda:0')
-layer- 1 hs entropy: tensor([95.8158], device='cuda:0')
-layer- 2 hs entropy: tensor([115.9994], device='cuda:0')
-layer- 3 hs entropy: tensor([130.5763], device='cuda:0')
-layer- 4 hs entropy: tensor([133.5058], device='cuda:0')
-layer- 5 hs entropy: tensor([133.3200], device='cuda:0')
-layer- 6 hs entropy: tensor([138.0804], device='cuda:0')
-layer- 7 hs entropy: tensor([126.0603], device='cuda:0')
-layer- 8 hs entropy: tensor([123.0439], device='cuda:0')
-layer- 9 hs entropy: tensor([123.4652], device='cuda:0')
-layer-10 hs entropy: tensor([124.1752], device='cuda:0')
-layer-11 hs entropy: tensor([113.3510], device='cuda:0')
-layer-12 hs entropy: tensor([105.7125], device='cuda:0')
-layer-13 hs entropy: tensor([102.5209], device='cuda:0')
-layer-14 hs entropy: tensor([92.8276], device='cuda:0')
-layer-15 hs entropy: tensor([87.3464], device='cuda:0')
-layer-16 hs entropy: tensor([75.0437], device='cuda:0')
-layer-17 hs entropy: tensor([69.6706], device='cuda:0')
-layer-18 hs entropy: tensor([50.5523], device='cuda:0')
-layer-19 hs entropy: tensor([45.5456], device='cuda:0')
-layer-20 hs entropy: tensor([33.9781], device='cuda:0')
-layer-21 hs entropy: tensor([19.9734], device='cuda:0')
-layer-22 hs entropy: tensor([20.6054], device='cuda:0')
-layer-23 hs entropy: tensor([17.8670], device='cuda:0')
-layer-24 hs entropy: tensor([15.9797], device='cuda:0')
-layer-25 hs entropy: tensor([10.9468], device='cuda:0')
-layer-26 hs entropy: tensor([13.7739], device='cuda:0')
-layer-27 hs entropy: tensor([11.0981], device='cuda:0')
-layer-28 hs entropy: tensor([43.5263], device='cuda:0')
+layer- 0 hs entropy: 40.45001983642578
+layer- 1 hs entropy: 95.81582641601562
+layer- 2 hs entropy: 115.99937438964844
+layer- 3 hs entropy: 130.57632446289062
+layer- 4 hs entropy: 133.50582885742188
+layer- 5 hs entropy: 133.32000732421875
+layer- 6 hs entropy: 138.08035278320312
+layer- 7 hs entropy: 126.0603256225586
+layer- 8 hs entropy: 123.04393005371094
+layer- 9 hs entropy: 123.46519470214844
+layer-10 hs entropy: 124.1751708984375
+layer-11 hs entropy: 113.35101318359375
+layer-12 hs entropy: 105.71246337890625
+layer-13 hs entropy: 102.52091979980469
+layer-14 hs entropy: 92.82759094238281
+layer-15 hs entropy: 87.346435546875
+layer-16 hs entropy: 75.04370880126953
+layer-17 hs entropy: 69.67056274414062
+layer-18 hs entropy: 50.552345275878906
+layer-19 hs entropy: 45.54559326171875
+layer-20 hs entropy: 33.97810363769531
+layer-21 hs entropy: 19.973392486572266
+layer-22 hs entropy: 20.605443954467773
+layer-23 hs entropy: 17.866966247558594
+layer-24 hs entropy: 15.979700088500977
+layer-25 hs entropy: 10.946762084960938
+layer-26 hs entropy: 13.773929595947266
+layer-27 hs entropy: 11.098095893859863
+layer-28 hs entropy: 43.52629470825195
 --------------------------------------------------------------------------------
 token-12
-layer- 0 hs entropy: tensor([39.3547], device='cuda:0')
-layer- 1 hs entropy: tensor([123.8611], device='cuda:0')
-layer- 2 hs entropy: tensor([134.4920], device='cuda:0')
-layer- 3 hs entropy: tensor([136.7024], device='cuda:0')
-layer- 4 hs entropy: tensor([136.7164], device='cuda:0')
-layer- 5 hs entropy: tensor([134.9153], device='cuda:0')
-layer- 6 hs entropy: tensor([137.7250], device='cuda:0')
-layer- 7 hs entropy: tensor([123.6225], device='cuda:0')
-layer- 8 hs entropy: tensor([130.3320], device='cuda:0')
-layer- 9 hs entropy: tensor([118.7593], device='cuda:0')
-layer-10 hs entropy: tensor([109.9812], device='cuda:0')
-layer-11 hs entropy: tensor([105.0503], device='cuda:0')
-layer-12 hs entropy: tensor([94.6416], device='cuda:0')
-layer-13 hs entropy: tensor([91.3546], device='cuda:0')
-layer-14 hs entropy: tensor([85.8501], device='cuda:0')
-layer-15 hs entropy: tensor([77.1660], device='cuda:0')
-layer-16 hs entropy: tensor([70.6072], device='cuda:0')
-layer-17 hs entropy: tensor([63.7801], device='cuda:0')
-layer-18 hs entropy: tensor([51.5763], device='cuda:0')
-layer-19 hs entropy: tensor([32.4892], device='cuda:0')
-layer-20 hs entropy: tensor([24.8850], device='cuda:0')
-layer-21 hs entropy: tensor([19.6362], device='cuda:0')
-layer-22 hs entropy: tensor([17.1781], device='cuda:0')
-layer-23 hs entropy: tensor([12.2846], device='cuda:0')
-layer-24 hs entropy: tensor([12.9414], device='cuda:0')
-layer-25 hs entropy: tensor([12.0744], device='cuda:0')
-layer-26 hs entropy: tensor([9.4948], device='cuda:0')
-layer-27 hs entropy: tensor([12.8377], device='cuda:0')
-layer-28 hs entropy: tensor([41.1636], device='cuda:0')
+layer- 0 hs entropy: 39.35466766357422
+layer- 1 hs entropy: 123.86107635498047
+layer- 2 hs entropy: 134.4920196533203
+layer- 3 hs entropy: 136.70236206054688
+layer- 4 hs entropy: 136.7164306640625
+layer- 5 hs entropy: 134.91531372070312
+layer- 6 hs entropy: 137.72503662109375
+layer- 7 hs entropy: 123.62249755859375
+layer- 8 hs entropy: 130.33201599121094
+layer- 9 hs entropy: 118.75927734375
+layer-10 hs entropy: 109.98117065429688
+layer-11 hs entropy: 105.0503158569336
+layer-12 hs entropy: 94.64157104492188
+layer-13 hs entropy: 91.35456848144531
+layer-14 hs entropy: 85.85009002685547
+layer-15 hs entropy: 77.16598510742188
+layer-16 hs entropy: 70.607177734375
+layer-17 hs entropy: 63.780059814453125
+layer-18 hs entropy: 51.57634735107422
+layer-19 hs entropy: 32.489227294921875
+layer-20 hs entropy: 24.885040283203125
+layer-21 hs entropy: 19.636207580566406
+layer-22 hs entropy: 17.178091049194336
+layer-23 hs entropy: 12.284639358520508
+layer-24 hs entropy: 12.941396713256836
+layer-25 hs entropy: 12.074350357055664
+layer-26 hs entropy: 9.494800567626953
+layer-27 hs entropy: 12.837699890136719
+layer-28 hs entropy: 41.163578033447266
 --------------------------------------------------------------------------------
 token-13
-layer- 0 hs entropy: tensor([39.9858], device='cuda:0')
-layer- 1 hs entropy: tensor([128.2739], device='cuda:0')
-layer- 2 hs entropy: tensor([135.7347], device='cuda:0')
-layer- 3 hs entropy: tensor([135.8228], device='cuda:0')
-layer- 4 hs entropy: tensor([137.9530], device='cuda:0')
-layer- 5 hs entropy: tensor([138.4346], device='cuda:0')
-layer- 6 hs entropy: tensor([135.9124], device='cuda:0')
-layer- 7 hs entropy: tensor([134.4250], device='cuda:0')
-layer- 8 hs entropy: tensor([126.9950], device='cuda:0')
-layer- 9 hs entropy: tensor([117.3156], device='cuda:0')
-layer-10 hs entropy: tensor([112.4769], device='cuda:0')
-layer-11 hs entropy: tensor([102.3683], device='cuda:0')
-layer-12 hs entropy: tensor([98.8516], device='cuda:0')
-layer-13 hs entropy: tensor([100.8735], device='cuda:0')
-layer-14 hs entropy: tensor([98.0944], device='cuda:0')
-layer-15 hs entropy: tensor([84.7911], device='cuda:0')
-layer-16 hs entropy: tensor([76.5147], device='cuda:0')
-layer-17 hs entropy: tensor([63.3678], device='cuda:0')
-layer-18 hs entropy: tensor([50.0600], device='cuda:0')
-layer-19 hs entropy: tensor([44.9289], device='cuda:0')
-layer-20 hs entropy: tensor([36.6334], device='cuda:0')
-layer-21 hs entropy: tensor([20.5063], device='cuda:0')
-layer-22 hs entropy: tensor([19.9787], device='cuda:0')
-layer-23 hs entropy: tensor([15.5743], device='cuda:0')
-layer-24 hs entropy: tensor([12.8480], device='cuda:0')
-layer-25 hs entropy: tensor([13.0264], device='cuda:0')
-layer-26 hs entropy: tensor([12.9444], device='cuda:0')
-layer-27 hs entropy: tensor([11.2359], device='cuda:0')
-layer-28 hs entropy: tensor([58.8825], device='cuda:0')
+layer- 0 hs entropy: 39.98583984375
+layer- 1 hs entropy: 128.27386474609375
+layer- 2 hs entropy: 135.7347412109375
+layer- 3 hs entropy: 135.82281494140625
+layer- 4 hs entropy: 137.95303344726562
+layer- 5 hs entropy: 138.4346466064453
+layer- 6 hs entropy: 135.912353515625
+layer- 7 hs entropy: 134.42495727539062
+layer- 8 hs entropy: 126.9949951171875
+layer- 9 hs entropy: 117.31561279296875
+layer-10 hs entropy: 112.47693634033203
+layer-11 hs entropy: 102.3682861328125
+layer-12 hs entropy: 98.85162353515625
+layer-13 hs entropy: 100.87350463867188
+layer-14 hs entropy: 98.09443664550781
+layer-15 hs entropy: 84.79108428955078
+layer-16 hs entropy: 76.5146713256836
+layer-17 hs entropy: 63.36783981323242
+layer-18 hs entropy: 50.060020446777344
+layer-19 hs entropy: 44.928932189941406
+layer-20 hs entropy: 36.63337707519531
+layer-21 hs entropy: 20.50626564025879
+layer-22 hs entropy: 19.978656768798828
+layer-23 hs entropy: 15.574280738830566
+layer-24 hs entropy: 12.847982406616211
+layer-25 hs entropy: 13.02635383605957
+layer-26 hs entropy: 12.944441795349121
+layer-27 hs entropy: 11.23594856262207
+layer-28 hs entropy: 58.88250732421875
 --------------------------------------------------------------------------------
 token-14
-layer- 0 hs entropy: tensor([40.9061], device='cuda:0')
-layer- 1 hs entropy: tensor([126.2156], device='cuda:0')
-layer- 2 hs entropy: tensor([141.9739], device='cuda:0')
-layer- 3 hs entropy: tensor([144.6123], device='cuda:0')
-layer- 4 hs entropy: tensor([145.0081], device='cuda:0')
-layer- 5 hs entropy: tensor([146.4406], device='cuda:0')
-layer- 6 hs entropy: tensor([143.6238], device='cuda:0')
-layer- 7 hs entropy: tensor([125.9524], device='cuda:0')
-layer- 8 hs entropy: tensor([126.7226], device='cuda:0')
-layer- 9 hs entropy: tensor([114.7258], device='cuda:0')
-layer-10 hs entropy: tensor([111.8738], device='cuda:0')
-layer-11 hs entropy: tensor([106.2093], device='cuda:0')
-layer-12 hs entropy: tensor([92.8743], device='cuda:0')
-layer-13 hs entropy: tensor([86.6897], device='cuda:0')
-layer-14 hs entropy: tensor([82.1518], device='cuda:0')
-layer-15 hs entropy: tensor([85.8714], device='cuda:0')
-layer-16 hs entropy: tensor([76.9827], device='cuda:0')
-layer-17 hs entropy: tensor([62.8451], device='cuda:0')
-layer-18 hs entropy: tensor([55.2037], device='cuda:0')
-layer-19 hs entropy: tensor([44.1264], device='cuda:0')
-layer-20 hs entropy: tensor([35.7041], device='cuda:0')
-layer-21 hs entropy: tensor([23.8556], device='cuda:0')
-layer-22 hs entropy: tensor([19.5338], device='cuda:0')
-layer-23 hs entropy: tensor([14.8225], device='cuda:0')
-layer-24 hs entropy: tensor([12.8955], device='cuda:0')
-layer-25 hs entropy: tensor([9.9549], device='cuda:0')
-layer-26 hs entropy: tensor([12.9309], device='cuda:0')
-layer-27 hs entropy: tensor([11.9922], device='cuda:0')
-layer-28 hs entropy: tensor([40.9983], device='cuda:0')
+layer- 0 hs entropy: 40.906063079833984
+layer- 1 hs entropy: 126.21562957763672
+layer- 2 hs entropy: 141.97393798828125
+layer- 3 hs entropy: 144.61233520507812
+layer- 4 hs entropy: 145.008056640625
+layer- 5 hs entropy: 146.4406280517578
+layer- 6 hs entropy: 143.62376403808594
+layer- 7 hs entropy: 125.9523696899414
+layer- 8 hs entropy: 126.72259521484375
+layer- 9 hs entropy: 114.72575378417969
+layer-10 hs entropy: 111.87379455566406
+layer-11 hs entropy: 106.20932006835938
+layer-12 hs entropy: 92.87432861328125
+layer-13 hs entropy: 86.68965148925781
+layer-14 hs entropy: 82.15177154541016
+layer-15 hs entropy: 85.87142944335938
+layer-16 hs entropy: 76.98271942138672
+layer-17 hs entropy: 62.84505844116211
+layer-18 hs entropy: 55.203739166259766
+layer-19 hs entropy: 44.12635803222656
+layer-20 hs entropy: 35.70411682128906
+layer-21 hs entropy: 23.855619430541992
+layer-22 hs entropy: 19.533828735351562
+layer-23 hs entropy: 14.822492599487305
+layer-24 hs entropy: 12.895491600036621
+layer-25 hs entropy: 9.954928398132324
+layer-26 hs entropy: 12.930929183959961
+layer-27 hs entropy: 11.992172241210938
+layer-28 hs entropy: 40.9983024597168
 --------------------------------------------------------------------------------
 token-15
-layer- 0 hs entropy: tensor([43.2144], device='cuda:0')
-layer- 1 hs entropy: tensor([115.5290], device='cuda:0')
-layer- 2 hs entropy: tensor([128.5320], device='cuda:0')
-layer- 3 hs entropy: tensor([138.6389], device='cuda:0')
-layer- 4 hs entropy: tensor([138.0824], device='cuda:0')
-layer- 5 hs entropy: tensor([137.6201], device='cuda:0')
-layer- 6 hs entropy: tensor([140.0480], device='cuda:0')
-layer- 7 hs entropy: tensor([129.2678], device='cuda:0')
-layer- 8 hs entropy: tensor([131.0455], device='cuda:0')
-layer- 9 hs entropy: tensor([113.5658], device='cuda:0')
-layer-10 hs entropy: tensor([114.9191], device='cuda:0')
-layer-11 hs entropy: tensor([110.2688], device='cuda:0')
-layer-12 hs entropy: tensor([104.0099], device='cuda:0')
-layer-13 hs entropy: tensor([97.8337], device='cuda:0')
-layer-14 hs entropy: tensor([91.2821], device='cuda:0')
-layer-15 hs entropy: tensor([86.6767], device='cuda:0')
-layer-16 hs entropy: tensor([78.1011], device='cuda:0')
-layer-17 hs entropy: tensor([73.6079], device='cuda:0')
-layer-18 hs entropy: tensor([57.4457], device='cuda:0')
-layer-19 hs entropy: tensor([39.6212], device='cuda:0')
-layer-20 hs entropy: tensor([30.4751], device='cuda:0')
-layer-21 hs entropy: tensor([31.0316], device='cuda:0')
-layer-22 hs entropy: tensor([24.6081], device='cuda:0')
-layer-23 hs entropy: tensor([14.9716], device='cuda:0')
-layer-24 hs entropy: tensor([17.7916], device='cuda:0')
-layer-25 hs entropy: tensor([14.1770], device='cuda:0')
-layer-26 hs entropy: tensor([14.8116], device='cuda:0')
-layer-27 hs entropy: tensor([16.0829], device='cuda:0')
-layer-28 hs entropy: tensor([44.4571], device='cuda:0')
+layer- 0 hs entropy: 43.21441650390625
+layer- 1 hs entropy: 115.5289535522461
+layer- 2 hs entropy: 128.531982421875
+layer- 3 hs entropy: 138.63894653320312
+layer- 4 hs entropy: 138.08236694335938
+layer- 5 hs entropy: 137.62008666992188
+layer- 6 hs entropy: 140.04803466796875
+layer- 7 hs entropy: 129.26779174804688
+layer- 8 hs entropy: 131.04551696777344
+layer- 9 hs entropy: 113.56578063964844
+layer-10 hs entropy: 114.91910552978516
+layer-11 hs entropy: 110.26882934570312
+layer-12 hs entropy: 104.00992584228516
+layer-13 hs entropy: 97.833740234375
+layer-14 hs entropy: 91.28205871582031
+layer-15 hs entropy: 86.67666625976562
+layer-16 hs entropy: 78.10113525390625
+layer-17 hs entropy: 73.60787200927734
+layer-18 hs entropy: 57.44566345214844
+layer-19 hs entropy: 39.621177673339844
+layer-20 hs entropy: 30.475051879882812
+layer-21 hs entropy: 31.031578063964844
+layer-22 hs entropy: 24.60811424255371
+layer-23 hs entropy: 14.971565246582031
+layer-24 hs entropy: 17.791553497314453
+layer-25 hs entropy: 14.176952362060547
+layer-26 hs entropy: 14.811570167541504
+layer-27 hs entropy: 16.082853317260742
+layer-28 hs entropy: 44.457115173339844
 --------------------------------------------------------------------------------
 token-16
-layer- 0 hs entropy: tensor([40.9394], device='cuda:0')
-layer- 1 hs entropy: tensor([90.7131], device='cuda:0')
-layer- 2 hs entropy: tensor([113.9422], device='cuda:0')
-layer- 3 hs entropy: tensor([119.6562], device='cuda:0')
-layer- 4 hs entropy: tensor([135.0412], device='cuda:0')
-layer- 5 hs entropy: tensor([127.1634], device='cuda:0')
-layer- 6 hs entropy: tensor([137.0267], device='cuda:0')
-layer- 7 hs entropy: tensor([131.2582], device='cuda:0')
-layer- 8 hs entropy: tensor([137.9215], device='cuda:0')
-layer- 9 hs entropy: tensor([136.6882], device='cuda:0')
-layer-10 hs entropy: tensor([133.5687], device='cuda:0')
-layer-11 hs entropy: tensor([133.6162], device='cuda:0')
-layer-12 hs entropy: tensor([119.8361], device='cuda:0')
-layer-13 hs entropy: tensor([115.5922], device='cuda:0')
-layer-14 hs entropy: tensor([113.2411], device='cuda:0')
-layer-15 hs entropy: tensor([112.3344], device='cuda:0')
-layer-16 hs entropy: tensor([97.4596], device='cuda:0')
-layer-17 hs entropy: tensor([87.7584], device='cuda:0')
-layer-18 hs entropy: tensor([59.2309], device='cuda:0')
-layer-19 hs entropy: tensor([53.2224], device='cuda:0')
-layer-20 hs entropy: tensor([36.0827], device='cuda:0')
-layer-21 hs entropy: tensor([37.5511], device='cuda:0')
-layer-22 hs entropy: tensor([25.0336], device='cuda:0')
-layer-23 hs entropy: tensor([21.9437], device='cuda:0')
-layer-24 hs entropy: tensor([23.5233], device='cuda:0')
-layer-25 hs entropy: tensor([14.4724], device='cuda:0')
-layer-26 hs entropy: tensor([14.4359], device='cuda:0')
-layer-27 hs entropy: tensor([10.0821], device='cuda:0')
-layer-28 hs entropy: tensor([55.1498], device='cuda:0')
+layer- 0 hs entropy: 40.93938446044922
+layer- 1 hs entropy: 90.71306610107422
+layer- 2 hs entropy: 113.94218444824219
+layer- 3 hs entropy: 119.65616607666016
+layer- 4 hs entropy: 135.04116821289062
+layer- 5 hs entropy: 127.16339111328125
+layer- 6 hs entropy: 137.02667236328125
+layer- 7 hs entropy: 131.25820922851562
+layer- 8 hs entropy: 137.92152404785156
+layer- 9 hs entropy: 136.688232421875
+layer-10 hs entropy: 133.56869506835938
+layer-11 hs entropy: 133.61622619628906
+layer-12 hs entropy: 119.83613586425781
+layer-13 hs entropy: 115.59224700927734
+layer-14 hs entropy: 113.24105834960938
+layer-15 hs entropy: 112.3343505859375
+layer-16 hs entropy: 97.45962524414062
+layer-17 hs entropy: 87.75837707519531
+layer-18 hs entropy: 59.230926513671875
+layer-19 hs entropy: 53.22240447998047
+layer-20 hs entropy: 36.08269500732422
+layer-21 hs entropy: 37.55113220214844
+layer-22 hs entropy: 25.033565521240234
+layer-23 hs entropy: 21.943727493286133
+layer-24 hs entropy: 23.523271560668945
+layer-25 hs entropy: 14.47244644165039
+layer-26 hs entropy: 14.435934066772461
+layer-27 hs entropy: 10.082148551940918
+layer-28 hs entropy: 55.14980697631836
 --------------------------------------------------------------------------------
 token-17
-layer- 0 hs entropy: tensor([36.8895], device='cuda:0')
-layer- 1 hs entropy: tensor([114.1074], device='cuda:0')
-layer- 2 hs entropy: tensor([117.9778], device='cuda:0')
-layer- 3 hs entropy: tensor([127.2849], device='cuda:0')
-layer- 4 hs entropy: tensor([135.1118], device='cuda:0')
-layer- 5 hs entropy: tensor([134.3328], device='cuda:0')
-layer- 6 hs entropy: tensor([133.3134], device='cuda:0')
-layer- 7 hs entropy: tensor([127.1304], device='cuda:0')
-layer- 8 hs entropy: tensor([134.1333], device='cuda:0')
-layer- 9 hs entropy: tensor([126.1537], device='cuda:0')
-layer-10 hs entropy: tensor([129.5105], device='cuda:0')
-layer-11 hs entropy: tensor([108.1765], device='cuda:0')
-layer-12 hs entropy: tensor([112.7735], device='cuda:0')
-layer-13 hs entropy: tensor([106.4910], device='cuda:0')
-layer-14 hs entropy: tensor([99.9797], device='cuda:0')
-layer-15 hs entropy: tensor([96.6208], device='cuda:0')
-layer-16 hs entropy: tensor([84.7649], device='cuda:0')
-layer-17 hs entropy: tensor([65.2513], device='cuda:0')
-layer-18 hs entropy: tensor([46.4798], device='cuda:0')
-layer-19 hs entropy: tensor([41.6958], device='cuda:0')
-layer-20 hs entropy: tensor([34.9729], device='cuda:0')
-layer-21 hs entropy: tensor([22.7495], device='cuda:0')
-layer-22 hs entropy: tensor([21.1024], device='cuda:0')
-layer-23 hs entropy: tensor([13.1783], device='cuda:0')
-layer-24 hs entropy: tensor([16.1581], device='cuda:0')
-layer-25 hs entropy: tensor([16.3224], device='cuda:0')
-layer-26 hs entropy: tensor([14.3736], device='cuda:0')
-layer-27 hs entropy: tensor([11.7779], device='cuda:0')
-layer-28 hs entropy: tensor([51.0767], device='cuda:0')
+layer- 0 hs entropy: 36.88947677612305
+layer- 1 hs entropy: 114.10737609863281
+layer- 2 hs entropy: 117.97784423828125
+layer- 3 hs entropy: 127.2849349975586
+layer- 4 hs entropy: 135.1117706298828
+layer- 5 hs entropy: 134.33282470703125
+layer- 6 hs entropy: 133.31341552734375
+layer- 7 hs entropy: 127.13037109375
+layer- 8 hs entropy: 134.13330078125
+layer- 9 hs entropy: 126.1537094116211
+layer-10 hs entropy: 129.51046752929688
+layer-11 hs entropy: 108.17646026611328
+layer-12 hs entropy: 112.77346801757812
+layer-13 hs entropy: 106.49098205566406
+layer-14 hs entropy: 99.97969055175781
+layer-15 hs entropy: 96.62079620361328
+layer-16 hs entropy: 84.764892578125
+layer-17 hs entropy: 65.25131225585938
+layer-18 hs entropy: 46.47981262207031
+layer-19 hs entropy: 41.69583511352539
+layer-20 hs entropy: 34.97290802001953
+layer-21 hs entropy: 22.749481201171875
+layer-22 hs entropy: 21.102405548095703
+layer-23 hs entropy: 13.178304672241211
+layer-24 hs entropy: 16.158096313476562
+layer-25 hs entropy: 16.32242202758789
+layer-26 hs entropy: 14.373574256896973
+layer-27 hs entropy: 11.777915000915527
+layer-28 hs entropy: 51.076744079589844
 --------------------------------------------------------------------------------
 token-18
-layer- 0 hs entropy: tensor([41.1005], device='cuda:0')
-layer- 1 hs entropy: tensor([118.2057], device='cuda:0')
-layer- 2 hs entropy: tensor([121.6902], device='cuda:0')
-layer- 3 hs entropy: tensor([137.8389], device='cuda:0')
-layer- 4 hs entropy: tensor([134.0158], device='cuda:0')
-layer- 5 hs entropy: tensor([139.4717], device='cuda:0')
-layer- 6 hs entropy: tensor([129.6054], device='cuda:0')
-layer- 7 hs entropy: tensor([125.6696], device='cuda:0')
-layer- 8 hs entropy: tensor([121.3634], device='cuda:0')
-layer- 9 hs entropy: tensor([120.2512], device='cuda:0')
-layer-10 hs entropy: tensor([120.2708], device='cuda:0')
-layer-11 hs entropy: tensor([98.6956], device='cuda:0')
-layer-12 hs entropy: tensor([67.6494], device='cuda:0')
-layer-13 hs entropy: tensor([62.0740], device='cuda:0')
-layer-14 hs entropy: tensor([61.7499], device='cuda:0')
-layer-15 hs entropy: tensor([105.9839], device='cuda:0')
-layer-16 hs entropy: tensor([93.2604], device='cuda:0')
-layer-17 hs entropy: tensor([83.0959], device='cuda:0')
-layer-18 hs entropy: tensor([59.2492], device='cuda:0')
-layer-19 hs entropy: tensor([46.5571], device='cuda:0')
-layer-20 hs entropy: tensor([42.3607], device='cuda:0')
-layer-21 hs entropy: tensor([23.0621], device='cuda:0')
-layer-22 hs entropy: tensor([19.0950], device='cuda:0')
-layer-23 hs entropy: tensor([21.3096], device='cuda:0')
-layer-24 hs entropy: tensor([18.1634], device='cuda:0')
-layer-25 hs entropy: tensor([16.6501], device='cuda:0')
-layer-26 hs entropy: tensor([12.6804], device='cuda:0')
-layer-27 hs entropy: tensor([19.4552], device='cuda:0')
-layer-28 hs entropy: tensor([51.2369], device='cuda:0')
+layer- 0 hs entropy: 41.100494384765625
+layer- 1 hs entropy: 118.20567321777344
+layer- 2 hs entropy: 121.69020080566406
+layer- 3 hs entropy: 137.8388671875
+layer- 4 hs entropy: 134.01577758789062
+layer- 5 hs entropy: 139.4717254638672
+layer- 6 hs entropy: 129.60543823242188
+layer- 7 hs entropy: 125.66961669921875
+layer- 8 hs entropy: 121.36341857910156
+layer- 9 hs entropy: 120.25123596191406
+layer-10 hs entropy: 120.27081298828125
+layer-11 hs entropy: 98.69558715820312
+layer-12 hs entropy: 67.64935302734375
+layer-13 hs entropy: 62.07402038574219
+layer-14 hs entropy: 61.74989318847656
+layer-15 hs entropy: 105.98391723632812
+layer-16 hs entropy: 93.2603759765625
+layer-17 hs entropy: 83.09587860107422
+layer-18 hs entropy: 59.24921417236328
+layer-19 hs entropy: 46.55712127685547
+layer-20 hs entropy: 42.36073303222656
+layer-21 hs entropy: 23.06206512451172
+layer-22 hs entropy: 19.09496307373047
+layer-23 hs entropy: 21.309593200683594
+layer-24 hs entropy: 18.163352966308594
+layer-25 hs entropy: 16.650070190429688
+layer-26 hs entropy: 12.68044662475586
+layer-27 hs entropy: 19.455177307128906
+layer-28 hs entropy: 51.23689270019531
 --------------------------------------------------------------------------------
 token-19
-layer- 0 hs entropy: tensor([39.4168], device='cuda:0')
-layer- 1 hs entropy: tensor([111.7120], device='cuda:0')
-layer- 2 hs entropy: tensor([119.2125], device='cuda:0')
-layer- 3 hs entropy: tensor([130.9815], device='cuda:0')
-layer- 4 hs entropy: tensor([142.2015], device='cuda:0')
-layer- 5 hs entropy: tensor([140.2291], device='cuda:0')
-layer- 6 hs entropy: tensor([134.6165], device='cuda:0')
-layer- 7 hs entropy: tensor([131.7686], device='cuda:0')
-layer- 8 hs entropy: tensor([127.1742], device='cuda:0')
-layer- 9 hs entropy: tensor([127.9238], device='cuda:0')
-layer-10 hs entropy: tensor([117.1083], device='cuda:0')
-layer-11 hs entropy: tensor([112.2472], device='cuda:0')
-layer-12 hs entropy: tensor([104.9787], device='cuda:0')
-layer-13 hs entropy: tensor([107.8561], device='cuda:0')
-layer-14 hs entropy: tensor([92.9094], device='cuda:0')
-layer-15 hs entropy: tensor([92.7953], device='cuda:0')
-layer-16 hs entropy: tensor([85.3810], device='cuda:0')
-layer-17 hs entropy: tensor([73.8187], device='cuda:0')
-layer-18 hs entropy: tensor([51.0081], device='cuda:0')
-layer-19 hs entropy: tensor([40.1699], device='cuda:0')
-layer-20 hs entropy: tensor([28.6744], device='cuda:0')
-layer-21 hs entropy: tensor([26.0353], device='cuda:0')
-layer-22 hs entropy: tensor([22.0142], device='cuda:0')
-layer-23 hs entropy: tensor([19.2605], device='cuda:0')
-layer-24 hs entropy: tensor([17.8382], device='cuda:0')
-layer-25 hs entropy: tensor([16.3125], device='cuda:0')
-layer-26 hs entropy: tensor([14.5922], device='cuda:0')
-layer-27 hs entropy: tensor([16.1656], device='cuda:0')
-layer-28 hs entropy: tensor([54.7959], device='cuda:0')
+layer- 0 hs entropy: 39.416839599609375
+layer- 1 hs entropy: 111.71195983886719
+layer- 2 hs entropy: 119.21247863769531
+layer- 3 hs entropy: 130.98150634765625
+layer- 4 hs entropy: 142.2015380859375
+layer- 5 hs entropy: 140.22906494140625
+layer- 6 hs entropy: 134.616455078125
+layer- 7 hs entropy: 131.76858520507812
+layer- 8 hs entropy: 127.17422485351562
+layer- 9 hs entropy: 127.92379760742188
+layer-10 hs entropy: 117.10828399658203
+layer-11 hs entropy: 112.2472152709961
+layer-12 hs entropy: 104.97871398925781
+layer-13 hs entropy: 107.8560791015625
+layer-14 hs entropy: 92.90939331054688
+layer-15 hs entropy: 92.7952880859375
+layer-16 hs entropy: 85.3810043334961
+layer-17 hs entropy: 73.81874084472656
+layer-18 hs entropy: 51.00811767578125
+layer-19 hs entropy: 40.16985321044922
+layer-20 hs entropy: 28.674381256103516
+layer-21 hs entropy: 26.035308837890625
+layer-22 hs entropy: 22.014179229736328
+layer-23 hs entropy: 19.260509490966797
+layer-24 hs entropy: 17.838171005249023
+layer-25 hs entropy: 16.312503814697266
+layer-26 hs entropy: 14.592177391052246
+layer-27 hs entropy: 16.165618896484375
+layer-28 hs entropy: 54.795928955078125
 --------------------------------------------------------------------------------
 token-20
-layer- 0 hs entropy: tensor([40.6661], device='cuda:0')
-layer- 1 hs entropy: tensor([110.9714], device='cuda:0')
-layer- 2 hs entropy: tensor([129.1989], device='cuda:0')
-layer- 3 hs entropy: tensor([133.7460], device='cuda:0')
-layer- 4 hs entropy: tensor([135.0947], device='cuda:0')
-layer- 5 hs entropy: tensor([133.4990], device='cuda:0')
-layer- 6 hs entropy: tensor([129.8213], device='cuda:0')
-layer- 7 hs entropy: tensor([134.7384], device='cuda:0')
-layer- 8 hs entropy: tensor([137.9215], device='cuda:0')
-layer- 9 hs entropy: tensor([134.6451], device='cuda:0')
-layer-10 hs entropy: tensor([127.9135], device='cuda:0')
-layer-11 hs entropy: tensor([111.8693], device='cuda:0')
-layer-12 hs entropy: tensor([112.0329], device='cuda:0')
-layer-13 hs entropy: tensor([104.1846], device='cuda:0')
-layer-14 hs entropy: tensor([96.3994], device='cuda:0')
-layer-15 hs entropy: tensor([95.3567], device='cuda:0')
-layer-16 hs entropy: tensor([87.4557], device='cuda:0')
-layer-17 hs entropy: tensor([72.3608], device='cuda:0')
-layer-18 hs entropy: tensor([56.7642], device='cuda:0')
-layer-19 hs entropy: tensor([48.8042], device='cuda:0')
-layer-20 hs entropy: tensor([31.8302], device='cuda:0')
-layer-21 hs entropy: tensor([27.8055], device='cuda:0')
-layer-22 hs entropy: tensor([20.1856], device='cuda:0')
-layer-23 hs entropy: tensor([20.7118], device='cuda:0')
-layer-24 hs entropy: tensor([14.1972], device='cuda:0')
-layer-25 hs entropy: tensor([14.3639], device='cuda:0')
-layer-26 hs entropy: tensor([17.1420], device='cuda:0')
-layer-27 hs entropy: tensor([11.1986], device='cuda:0')
-layer-28 hs entropy: tensor([49.9384], device='cuda:0')
+layer- 0 hs entropy: 40.6661376953125
+layer- 1 hs entropy: 110.97137451171875
+layer- 2 hs entropy: 129.1989288330078
+layer- 3 hs entropy: 133.74603271484375
+layer- 4 hs entropy: 135.09466552734375
+layer- 5 hs entropy: 133.49899291992188
+layer- 6 hs entropy: 129.82130432128906
+layer- 7 hs entropy: 134.73841857910156
+layer- 8 hs entropy: 137.92152404785156
+layer- 9 hs entropy: 134.64511108398438
+layer-10 hs entropy: 127.91353607177734
+layer-11 hs entropy: 111.86931610107422
+layer-12 hs entropy: 112.03285217285156
+layer-13 hs entropy: 104.18458557128906
+layer-14 hs entropy: 96.39935302734375
+layer-15 hs entropy: 95.356689453125
+layer-16 hs entropy: 87.45573425292969
+layer-17 hs entropy: 72.36080169677734
+layer-18 hs entropy: 56.76420211791992
+layer-19 hs entropy: 48.804222106933594
+layer-20 hs entropy: 31.830184936523438
+layer-21 hs entropy: 27.80551528930664
+layer-22 hs entropy: 20.185558319091797
+layer-23 hs entropy: 20.711837768554688
+layer-24 hs entropy: 14.197237014770508
+layer-25 hs entropy: 14.363883972167969
+layer-26 hs entropy: 17.141956329345703
+layer-27 hs entropy: 11.19863224029541
+layer-28 hs entropy: 49.938377380371094
 --------------------------------------------------------------------------------
 token-21
-layer- 0 hs entropy: tensor([39.6598], device='cuda:0')
-layer- 1 hs entropy: tensor([134.5982], device='cuda:0')
-layer- 2 hs entropy: tensor([142.0034], device='cuda:0')
-layer- 3 hs entropy: tensor([138.4642], device='cuda:0')
-layer- 4 hs entropy: tensor([134.8256], device='cuda:0')
-layer- 5 hs entropy: tensor([143.1200], device='cuda:0')
-layer- 6 hs entropy: tensor([136.2831], device='cuda:0')
-layer- 7 hs entropy: tensor([128.5233], device='cuda:0')
-layer- 8 hs entropy: tensor([131.5287], device='cuda:0')
-layer- 9 hs entropy: tensor([122.7409], device='cuda:0')
-layer-10 hs entropy: tensor([117.3847], device='cuda:0')
-layer-11 hs entropy: tensor([107.1646], device='cuda:0')
-layer-12 hs entropy: tensor([100.7383], device='cuda:0')
-layer-13 hs entropy: tensor([103.8082], device='cuda:0')
-layer-14 hs entropy: tensor([95.9343], device='cuda:0')
-layer-15 hs entropy: tensor([86.7267], device='cuda:0')
-layer-16 hs entropy: tensor([83.6013], device='cuda:0')
-layer-17 hs entropy: tensor([70.9835], device='cuda:0')
-layer-18 hs entropy: tensor([48.1296], device='cuda:0')
-layer-19 hs entropy: tensor([37.4560], device='cuda:0')
-layer-20 hs entropy: tensor([31.6694], device='cuda:0')
-layer-21 hs entropy: tensor([25.3418], device='cuda:0')
-layer-22 hs entropy: tensor([20.8893], device='cuda:0')
-layer-23 hs entropy: tensor([11.9042], device='cuda:0')
-layer-24 hs entropy: tensor([14.2447], device='cuda:0')
-layer-25 hs entropy: tensor([13.5014], device='cuda:0')
-layer-26 hs entropy: tensor([8.7964], device='cuda:0')
-layer-27 hs entropy: tensor([10.5781], device='cuda:0')
-layer-28 hs entropy: tensor([48.8379], device='cuda:0')
+layer- 0 hs entropy: 39.659759521484375
+layer- 1 hs entropy: 134.59823608398438
+layer- 2 hs entropy: 142.00335693359375
+layer- 3 hs entropy: 138.46420288085938
+layer- 4 hs entropy: 134.8255615234375
+layer- 5 hs entropy: 143.11996459960938
+layer- 6 hs entropy: 136.28306579589844
+layer- 7 hs entropy: 128.5233154296875
+layer- 8 hs entropy: 131.52874755859375
+layer- 9 hs entropy: 122.74089813232422
+layer-10 hs entropy: 117.38472747802734
+layer-11 hs entropy: 107.16455078125
+layer-12 hs entropy: 100.73833465576172
+layer-13 hs entropy: 103.80815124511719
+layer-14 hs entropy: 95.9343490600586
+layer-15 hs entropy: 86.72669982910156
+layer-16 hs entropy: 83.60127258300781
+layer-17 hs entropy: 70.98347473144531
+layer-18 hs entropy: 48.12962341308594
+layer-19 hs entropy: 37.45603561401367
+layer-20 hs entropy: 31.66935157775879
+layer-21 hs entropy: 25.34181785583496
+layer-22 hs entropy: 20.889301300048828
+layer-23 hs entropy: 11.904189109802246
+layer-24 hs entropy: 14.244732856750488
+layer-25 hs entropy: 13.501445770263672
+layer-26 hs entropy: 8.796388626098633
+layer-27 hs entropy: 10.578086853027344
+layer-28 hs entropy: 48.837852478027344
 --------------------------------------------------------------------------------
 token-22
-layer- 0 hs entropy: tensor([43.8364], device='cuda:0')
-layer- 1 hs entropy: tensor([121.7177], device='cuda:0')
-layer- 2 hs entropy: tensor([131.0126], device='cuda:0')
-layer- 3 hs entropy: tensor([138.9115], device='cuda:0')
-layer- 4 hs entropy: tensor([134.8498], device='cuda:0')
-layer- 5 hs entropy: tensor([135.5107], device='cuda:0')
-layer- 6 hs entropy: tensor([142.1076], device='cuda:0')
-layer- 7 hs entropy: tensor([133.5041], device='cuda:0')
-layer- 8 hs entropy: tensor([126.2912], device='cuda:0')
-layer- 9 hs entropy: tensor([112.4670], device='cuda:0')
-layer-10 hs entropy: tensor([112.6148], device='cuda:0')
-layer-11 hs entropy: tensor([105.5758], device='cuda:0')
-layer-12 hs entropy: tensor([92.2565], device='cuda:0')
-layer-13 hs entropy: tensor([92.7369], device='cuda:0')
-layer-14 hs entropy: tensor([95.6570], device='cuda:0')
-layer-15 hs entropy: tensor([81.9383], device='cuda:0')
-layer-16 hs entropy: tensor([77.7475], device='cuda:0')
-layer-17 hs entropy: tensor([62.2743], device='cuda:0')
-layer-18 hs entropy: tensor([49.7003], device='cuda:0')
-layer-19 hs entropy: tensor([39.8039], device='cuda:0')
-layer-20 hs entropy: tensor([26.4414], device='cuda:0')
-layer-21 hs entropy: tensor([23.3270], device='cuda:0')
-layer-22 hs entropy: tensor([23.0887], device='cuda:0')
-layer-23 hs entropy: tensor([15.8790], device='cuda:0')
-layer-24 hs entropy: tensor([13.4116], device='cuda:0')
-layer-25 hs entropy: tensor([11.3997], device='cuda:0')
-layer-26 hs entropy: tensor([17.4801], device='cuda:0')
-layer-27 hs entropy: tensor([13.5948], device='cuda:0')
-layer-28 hs entropy: tensor([48.6604], device='cuda:0')
+layer- 0 hs entropy: 43.83641052246094
+layer- 1 hs entropy: 121.71766662597656
+layer- 2 hs entropy: 131.01255798339844
+layer- 3 hs entropy: 138.9115447998047
+layer- 4 hs entropy: 134.84983825683594
+layer- 5 hs entropy: 135.5107421875
+layer- 6 hs entropy: 142.10757446289062
+layer- 7 hs entropy: 133.50408935546875
+layer- 8 hs entropy: 126.29122161865234
+layer- 9 hs entropy: 112.46697998046875
+layer-10 hs entropy: 112.61483764648438
+layer-11 hs entropy: 105.5758056640625
+layer-12 hs entropy: 92.25653076171875
+layer-13 hs entropy: 92.73693084716797
+layer-14 hs entropy: 95.656982421875
+layer-15 hs entropy: 81.93832397460938
+layer-16 hs entropy: 77.7474594116211
+layer-17 hs entropy: 62.274314880371094
+layer-18 hs entropy: 49.70032501220703
+layer-19 hs entropy: 39.80392837524414
+layer-20 hs entropy: 26.44140625
+layer-21 hs entropy: 23.326976776123047
+layer-22 hs entropy: 23.088743209838867
+layer-23 hs entropy: 15.87899398803711
+layer-24 hs entropy: 13.411638259887695
+layer-25 hs entropy: 11.399698257446289
+layer-26 hs entropy: 17.48013687133789
+layer-27 hs entropy: 13.594839096069336
+layer-28 hs entropy: 48.66044616699219
 --------------------------------------------------------------------------------
 token-23
-layer- 0 hs entropy: tensor([40.6935], device='cuda:0')
-layer- 1 hs entropy: tensor([120.1777], device='cuda:0')
-layer- 2 hs entropy: tensor([131.1932], device='cuda:0')
-layer- 3 hs entropy: tensor([137.3467], device='cuda:0')
-layer- 4 hs entropy: tensor([138.4881], device='cuda:0')
-layer- 5 hs entropy: tensor([134.9531], device='cuda:0')
-layer- 6 hs entropy: tensor([133.8958], device='cuda:0')
-layer- 7 hs entropy: tensor([119.8847], device='cuda:0')
-layer- 8 hs entropy: tensor([127.3698], device='cuda:0')
-layer- 9 hs entropy: tensor([124.1084], device='cuda:0')
-layer-10 hs entropy: tensor([116.5185], device='cuda:0')
-layer-11 hs entropy: tensor([102.3402], device='cuda:0')
-layer-12 hs entropy: tensor([102.0843], device='cuda:0')
-layer-13 hs entropy: tensor([97.6406], device='cuda:0')
-layer-14 hs entropy: tensor([92.3496], device='cuda:0')
-layer-15 hs entropy: tensor([85.2685], device='cuda:0')
-layer-16 hs entropy: tensor([76.6110], device='cuda:0')
-layer-17 hs entropy: tensor([65.6433], device='cuda:0')
-layer-18 hs entropy: tensor([41.4589], device='cuda:0')
-layer-19 hs entropy: tensor([40.8380], device='cuda:0')
-layer-20 hs entropy: tensor([32.1671], device='cuda:0')
-layer-21 hs entropy: tensor([23.7847], device='cuda:0')
-layer-22 hs entropy: tensor([14.8397], device='cuda:0')
-layer-23 hs entropy: tensor([13.2227], device='cuda:0')
-layer-24 hs entropy: tensor([10.8967], device='cuda:0')
-layer-25 hs entropy: tensor([10.6327], device='cuda:0')
-layer-26 hs entropy: tensor([12.2680], device='cuda:0')
-layer-27 hs entropy: tensor([11.5692], device='cuda:0')
-layer-28 hs entropy: tensor([45.8772], device='cuda:0')
+layer- 0 hs entropy: 40.693519592285156
+layer- 1 hs entropy: 120.17774200439453
+layer- 2 hs entropy: 131.1931610107422
+layer- 3 hs entropy: 137.3466796875
+layer- 4 hs entropy: 138.48814392089844
+layer- 5 hs entropy: 134.953125
+layer- 6 hs entropy: 133.895751953125
+layer- 7 hs entropy: 119.88471221923828
+layer- 8 hs entropy: 127.36978149414062
+layer- 9 hs entropy: 124.10841369628906
+layer-10 hs entropy: 116.51846313476562
+layer-11 hs entropy: 102.34017181396484
+layer-12 hs entropy: 102.08433532714844
+layer-13 hs entropy: 97.640625
+layer-14 hs entropy: 92.34956359863281
+layer-15 hs entropy: 85.26849365234375
+layer-16 hs entropy: 76.61099243164062
+layer-17 hs entropy: 65.64327239990234
+layer-18 hs entropy: 41.458866119384766
+layer-19 hs entropy: 40.83799362182617
+layer-20 hs entropy: 32.1671028137207
+layer-21 hs entropy: 23.78472900390625
+layer-22 hs entropy: 14.839729309082031
+layer-23 hs entropy: 13.222723007202148
+layer-24 hs entropy: 10.896719932556152
+layer-25 hs entropy: 10.63271427154541
+layer-26 hs entropy: 12.268033027648926
+layer-27 hs entropy: 11.569219589233398
+layer-28 hs entropy: 45.87718200683594
 --------------------------------------------------------------------------------
 token-24
-layer- 0 hs entropy: tensor([40.8060], device='cuda:0')
-layer- 1 hs entropy: tensor([120.1984], device='cuda:0')
-layer- 2 hs entropy: tensor([132.0308], device='cuda:0')
-layer- 3 hs entropy: tensor([132.8480], device='cuda:0')
-layer- 4 hs entropy: tensor([135.6027], device='cuda:0')
-layer- 5 hs entropy: tensor([141.5027], device='cuda:0')
-layer- 6 hs entropy: tensor([138.1552], device='cuda:0')
-layer- 7 hs entropy: tensor([127.1859], device='cuda:0')
-layer- 8 hs entropy: tensor([123.5578], device='cuda:0')
-layer- 9 hs entropy: tensor([119.6226], device='cuda:0')
-layer-10 hs entropy: tensor([122.6797], device='cuda:0')
-layer-11 hs entropy: tensor([112.5536], device='cuda:0')
-layer-12 hs entropy: tensor([109.2699], device='cuda:0')
-layer-13 hs entropy: tensor([100.5487], device='cuda:0')
-layer-14 hs entropy: tensor([95.6917], device='cuda:0')
-layer-15 hs entropy: tensor([91.5115], device='cuda:0')
-layer-16 hs entropy: tensor([80.7261], device='cuda:0')
-layer-17 hs entropy: tensor([75.8886], device='cuda:0')
-layer-18 hs entropy: tensor([61.9118], device='cuda:0')
-layer-19 hs entropy: tensor([44.4424], device='cuda:0')
-layer-20 hs entropy: tensor([36.1641], device='cuda:0')
-layer-21 hs entropy: tensor([28.9019], device='cuda:0')
-layer-22 hs entropy: tensor([20.5663], device='cuda:0')
-layer-23 hs entropy: tensor([15.3804], device='cuda:0')
-layer-24 hs entropy: tensor([16.0381], device='cuda:0')
-layer-25 hs entropy: tensor([11.9383], device='cuda:0')
-layer-26 hs entropy: tensor([7.6342], device='cuda:0')
-layer-27 hs entropy: tensor([10.9457], device='cuda:0')
-layer-28 hs entropy: tensor([38.1138], device='cuda:0')
+layer- 0 hs entropy: 40.80602264404297
+layer- 1 hs entropy: 120.19837188720703
+layer- 2 hs entropy: 132.03076171875
+layer- 3 hs entropy: 132.84799194335938
+layer- 4 hs entropy: 135.60272216796875
+layer- 5 hs entropy: 141.5027313232422
+layer- 6 hs entropy: 138.1552276611328
+layer- 7 hs entropy: 127.18592834472656
+layer- 8 hs entropy: 123.55781555175781
+layer- 9 hs entropy: 119.62261962890625
+layer-10 hs entropy: 122.67973327636719
+layer-11 hs entropy: 112.55360412597656
+layer-12 hs entropy: 109.26988220214844
+layer-13 hs entropy: 100.54869079589844
+layer-14 hs entropy: 95.691650390625
+layer-15 hs entropy: 91.51145935058594
+layer-16 hs entropy: 80.72611999511719
+layer-17 hs entropy: 75.88864135742188
+layer-18 hs entropy: 61.91175842285156
+layer-19 hs entropy: 44.4423713684082
+layer-20 hs entropy: 36.16405487060547
+layer-21 hs entropy: 28.901905059814453
+layer-22 hs entropy: 20.566274642944336
+layer-23 hs entropy: 15.38036823272705
+layer-24 hs entropy: 16.03812026977539
+layer-25 hs entropy: 11.93828010559082
+layer-26 hs entropy: 7.634197235107422
+layer-27 hs entropy: 10.945676803588867
+layer-28 hs entropy: 38.11383819580078
 --------------------------------------------------------------------------------
 token-25
-layer- 0 hs entropy: tensor([36.0410], device='cuda:0')
-layer- 1 hs entropy: tensor([125.4278], device='cuda:0')
-layer- 2 hs entropy: tensor([124.2829], device='cuda:0')
-layer- 3 hs entropy: tensor([130.1438], device='cuda:0')
-layer- 4 hs entropy: tensor([133.5940], device='cuda:0')
-layer- 5 hs entropy: tensor([134.1887], device='cuda:0')
-layer- 6 hs entropy: tensor([127.8804], device='cuda:0')
-layer- 7 hs entropy: tensor([123.5695], device='cuda:0')
-layer- 8 hs entropy: tensor([118.2670], device='cuda:0')
-layer- 9 hs entropy: tensor([103.7290], device='cuda:0')
-layer-10 hs entropy: tensor([113.7563], device='cuda:0')
-layer-11 hs entropy: tensor([95.5665], device='cuda:0')
-layer-12 hs entropy: tensor([99.9136], device='cuda:0')
-layer-13 hs entropy: tensor([94.5325], device='cuda:0')
-layer-14 hs entropy: tensor([95.9941], device='cuda:0')
-layer-15 hs entropy: tensor([81.5430], device='cuda:0')
-layer-16 hs entropy: tensor([70.0517], device='cuda:0')
-layer-17 hs entropy: tensor([57.1381], device='cuda:0')
-layer-18 hs entropy: tensor([52.0748], device='cuda:0')
-layer-19 hs entropy: tensor([49.5534], device='cuda:0')
-layer-20 hs entropy: tensor([35.7026], device='cuda:0')
-layer-21 hs entropy: tensor([22.8558], device='cuda:0')
-layer-22 hs entropy: tensor([16.0420], device='cuda:0')
-layer-23 hs entropy: tensor([14.4640], device='cuda:0')
-layer-24 hs entropy: tensor([15.8048], device='cuda:0')
-layer-25 hs entropy: tensor([15.8245], device='cuda:0')
-layer-26 hs entropy: tensor([14.6462], device='cuda:0')
-layer-27 hs entropy: tensor([12.6023], device='cuda:0')
-layer-28 hs entropy: tensor([47.4266], device='cuda:0')
+layer- 0 hs entropy: 36.041019439697266
+layer- 1 hs entropy: 125.42780303955078
+layer- 2 hs entropy: 124.28294372558594
+layer- 3 hs entropy: 130.14376831054688
+layer- 4 hs entropy: 133.593994140625
+layer- 5 hs entropy: 134.18873596191406
+layer- 6 hs entropy: 127.88035583496094
+layer- 7 hs entropy: 123.56951904296875
+layer- 8 hs entropy: 118.26699829101562
+layer- 9 hs entropy: 103.72903442382812
+layer-10 hs entropy: 113.75628662109375
+layer-11 hs entropy: 95.56646728515625
+layer-12 hs entropy: 99.91355895996094
+layer-13 hs entropy: 94.53253173828125
+layer-14 hs entropy: 95.99407196044922
+layer-15 hs entropy: 81.54304504394531
+layer-16 hs entropy: 70.05172729492188
+layer-17 hs entropy: 57.13807678222656
+layer-18 hs entropy: 52.07476043701172
+layer-19 hs entropy: 49.553382873535156
+layer-20 hs entropy: 35.702598571777344
+layer-21 hs entropy: 22.855785369873047
+layer-22 hs entropy: 16.041954040527344
+layer-23 hs entropy: 14.463980674743652
+layer-24 hs entropy: 15.804756164550781
+layer-25 hs entropy: 15.824533462524414
+layer-26 hs entropy: 14.646206855773926
+layer-27 hs entropy: 12.602261543273926
+layer-28 hs entropy: 47.4266242980957
 --------------------------------------------------------------------------------
 token-26
-layer- 0 hs entropy: tensor([42.1166], device='cuda:0')
-layer- 1 hs entropy: tensor([87.7891], device='cuda:0')
-layer- 2 hs entropy: tensor([115.1312], device='cuda:0')
-layer- 3 hs entropy: tensor([128.0202], device='cuda:0')
-layer- 4 hs entropy: tensor([134.8841], device='cuda:0')
-layer- 5 hs entropy: tensor([136.8945], device='cuda:0')
-layer- 6 hs entropy: tensor([135.9070], device='cuda:0')
-layer- 7 hs entropy: tensor([133.3363], device='cuda:0')
-layer- 8 hs entropy: tensor([129.1628], device='cuda:0')
-layer- 9 hs entropy: tensor([119.6296], device='cuda:0')
-layer-10 hs entropy: tensor([124.5507], device='cuda:0')
-layer-11 hs entropy: tensor([121.3740], device='cuda:0')
-layer-12 hs entropy: tensor([110.1003], device='cuda:0')
-layer-13 hs entropy: tensor([103.8919], device='cuda:0')
-layer-14 hs entropy: tensor([97.1871], device='cuda:0')
-layer-15 hs entropy: tensor([96.9776], device='cuda:0')
-layer-16 hs entropy: tensor([83.2208], device='cuda:0')
-layer-17 hs entropy: tensor([71.6547], device='cuda:0')
-layer-18 hs entropy: tensor([54.3790], device='cuda:0')
-layer-19 hs entropy: tensor([45.8213], device='cuda:0')
-layer-20 hs entropy: tensor([36.1119], device='cuda:0')
-layer-21 hs entropy: tensor([25.2676], device='cuda:0')
-layer-22 hs entropy: tensor([23.5702], device='cuda:0')
-layer-23 hs entropy: tensor([17.1456], device='cuda:0')
-layer-24 hs entropy: tensor([16.6896], device='cuda:0')
-layer-25 hs entropy: tensor([12.2723], device='cuda:0')
-layer-26 hs entropy: tensor([13.5013], device='cuda:0')
-layer-27 hs entropy: tensor([12.3710], device='cuda:0')
-layer-28 hs entropy: tensor([34.4770], device='cuda:0')
+layer- 0 hs entropy: 42.116600036621094
+layer- 1 hs entropy: 87.78907775878906
+layer- 2 hs entropy: 115.13124084472656
+layer- 3 hs entropy: 128.02020263671875
+layer- 4 hs entropy: 134.88406372070312
+layer- 5 hs entropy: 136.89447021484375
+layer- 6 hs entropy: 135.90695190429688
+layer- 7 hs entropy: 133.33627319335938
+layer- 8 hs entropy: 129.16278076171875
+layer- 9 hs entropy: 119.62957000732422
+layer-10 hs entropy: 124.55072021484375
+layer-11 hs entropy: 121.37403106689453
+layer-12 hs entropy: 110.1003189086914
+layer-13 hs entropy: 103.8919448852539
+layer-14 hs entropy: 97.18710327148438
+layer-15 hs entropy: 96.97763061523438
+layer-16 hs entropy: 83.2208251953125
+layer-17 hs entropy: 71.6546630859375
+layer-18 hs entropy: 54.379005432128906
+layer-19 hs entropy: 45.82126235961914
+layer-20 hs entropy: 36.11187744140625
+layer-21 hs entropy: 25.267553329467773
+layer-22 hs entropy: 23.570240020751953
+layer-23 hs entropy: 17.145647048950195
+layer-24 hs entropy: 16.68963623046875
+layer-25 hs entropy: 12.272315979003906
+layer-26 hs entropy: 13.501273155212402
+layer-27 hs entropy: 12.37099838256836
+layer-28 hs entropy: 34.47701644897461
 --------------------------------------------------------------------------------
 token-27
-layer- 0 hs entropy: tensor([40.9847], device='cuda:0')
-layer- 1 hs entropy: tensor([125.4097], device='cuda:0')
-layer- 2 hs entropy: tensor([124.3510], device='cuda:0')
-layer- 3 hs entropy: tensor([139.6286], device='cuda:0')
-layer- 4 hs entropy: tensor([140.0300], device='cuda:0')
-layer- 5 hs entropy: tensor([122.5775], device='cuda:0')
-layer- 6 hs entropy: tensor([119.7731], device='cuda:0')
-layer- 7 hs entropy: tensor([120.2506], device='cuda:0')
-layer- 8 hs entropy: tensor([118.7360], device='cuda:0')
-layer- 9 hs entropy: tensor([110.4546], device='cuda:0')
-layer-10 hs entropy: tensor([94.5710], device='cuda:0')
-layer-11 hs entropy: tensor([90.6212], device='cuda:0')
-layer-12 hs entropy: tensor([97.9643], device='cuda:0')
-layer-13 hs entropy: tensor([96.9251], device='cuda:0')
-layer-14 hs entropy: tensor([82.1192], device='cuda:0')
-layer-15 hs entropy: tensor([84.7143], device='cuda:0')
-layer-16 hs entropy: tensor([75.9246], device='cuda:0')
-layer-17 hs entropy: tensor([58.7179], device='cuda:0')
-layer-18 hs entropy: tensor([47.8053], device='cuda:0')
-layer-19 hs entropy: tensor([35.6505], device='cuda:0')
-layer-20 hs entropy: tensor([34.5676], device='cuda:0')
-layer-21 hs entropy: tensor([24.8115], device='cuda:0')
-layer-22 hs entropy: tensor([22.5859], device='cuda:0')
-layer-23 hs entropy: tensor([18.1209], device='cuda:0')
-layer-24 hs entropy: tensor([14.8819], device='cuda:0')
-layer-25 hs entropy: tensor([19.8503], device='cuda:0')
-layer-26 hs entropy: tensor([15.2776], device='cuda:0')
-layer-27 hs entropy: tensor([16.0906], device='cuda:0')
-layer-28 hs entropy: tensor([42.6982], device='cuda:0')
+layer- 0 hs entropy: 40.98474884033203
+layer- 1 hs entropy: 125.40968322753906
+layer- 2 hs entropy: 124.35102844238281
+layer- 3 hs entropy: 139.62860107421875
+layer- 4 hs entropy: 140.02999877929688
+layer- 5 hs entropy: 122.57752990722656
+layer- 6 hs entropy: 119.77308654785156
+layer- 7 hs entropy: 120.2505874633789
+layer- 8 hs entropy: 118.73603820800781
+layer- 9 hs entropy: 110.45462036132812
+layer-10 hs entropy: 94.57095336914062
+layer-11 hs entropy: 90.6212387084961
+layer-12 hs entropy: 97.96427917480469
+layer-13 hs entropy: 96.92507934570312
+layer-14 hs entropy: 82.11924743652344
+layer-15 hs entropy: 84.71428680419922
+layer-16 hs entropy: 75.92457580566406
+layer-17 hs entropy: 58.71794509887695
+layer-18 hs entropy: 47.80530548095703
+layer-19 hs entropy: 35.6505012512207
+layer-20 hs entropy: 34.56763458251953
+layer-21 hs entropy: 24.811464309692383
+layer-22 hs entropy: 22.585908889770508
+layer-23 hs entropy: 18.12093734741211
+layer-24 hs entropy: 14.881877899169922
+layer-25 hs entropy: 19.85027313232422
+layer-26 hs entropy: 15.277568817138672
+layer-27 hs entropy: 16.090587615966797
+layer-28 hs entropy: 42.6982421875
 --------------------------------------------------------------------------------
 token-28
-layer- 0 hs entropy: tensor([42.1166], device='cuda:0')
-layer- 1 hs entropy: tensor([84.8038], device='cuda:0')
-layer- 2 hs entropy: tensor([127.2527], device='cuda:0')
-layer- 3 hs entropy: tensor([137.3385], device='cuda:0')
-layer- 4 hs entropy: tensor([141.5579], device='cuda:0')
-layer- 5 hs entropy: tensor([144.0814], device='cuda:0')
-layer- 6 hs entropy: tensor([135.1388], device='cuda:0')
-layer- 7 hs entropy: tensor([130.7157], device='cuda:0')
-layer- 8 hs entropy: tensor([126.4234], device='cuda:0')
-layer- 9 hs entropy: tensor([117.0950], device='cuda:0')
-layer-10 hs entropy: tensor([118.2213], device='cuda:0')
-layer-11 hs entropy: tensor([113.7297], device='cuda:0')
-layer-12 hs entropy: tensor([108.2900], device='cuda:0')
-layer-13 hs entropy: tensor([101.3272], device='cuda:0')
-layer-14 hs entropy: tensor([98.5192], device='cuda:0')
-layer-15 hs entropy: tensor([92.7846], device='cuda:0')
-layer-16 hs entropy: tensor([77.7213], device='cuda:0')
-layer-17 hs entropy: tensor([69.6163], device='cuda:0')
-layer-18 hs entropy: tensor([57.9385], device='cuda:0')
-layer-19 hs entropy: tensor([48.7730], device='cuda:0')
-layer-20 hs entropy: tensor([33.3151], device='cuda:0')
-layer-21 hs entropy: tensor([24.4808], device='cuda:0')
-layer-22 hs entropy: tensor([23.6889], device='cuda:0')
-layer-23 hs entropy: tensor([19.1606], device='cuda:0')
-layer-24 hs entropy: tensor([15.3015], device='cuda:0')
-layer-25 hs entropy: tensor([14.6739], device='cuda:0')
-layer-26 hs entropy: tensor([10.5753], device='cuda:0')
-layer-27 hs entropy: tensor([10.9016], device='cuda:0')
-layer-28 hs entropy: tensor([38.1492], device='cuda:0')
+layer- 0 hs entropy: 42.116600036621094
+layer- 1 hs entropy: 84.8038330078125
+layer- 2 hs entropy: 127.25271606445312
+layer- 3 hs entropy: 137.33847045898438
+layer- 4 hs entropy: 141.5579071044922
+layer- 5 hs entropy: 144.08135986328125
+layer- 6 hs entropy: 135.13876342773438
+layer- 7 hs entropy: 130.7156982421875
+layer- 8 hs entropy: 126.42338562011719
+layer- 9 hs entropy: 117.09497833251953
+layer-10 hs entropy: 118.22132110595703
+layer-11 hs entropy: 113.72972106933594
+layer-12 hs entropy: 108.29000854492188
+layer-13 hs entropy: 101.32718658447266
+layer-14 hs entropy: 98.51918029785156
+layer-15 hs entropy: 92.7845687866211
+layer-16 hs entropy: 77.72126770019531
+layer-17 hs entropy: 69.61627960205078
+layer-18 hs entropy: 57.938507080078125
+layer-19 hs entropy: 48.77302169799805
+layer-20 hs entropy: 33.31507110595703
+layer-21 hs entropy: 24.48082733154297
+layer-22 hs entropy: 23.68889808654785
+layer-23 hs entropy: 19.160634994506836
+layer-24 hs entropy: 15.301472663879395
+layer-25 hs entropy: 14.67387866973877
+layer-26 hs entropy: 10.575335502624512
+layer-27 hs entropy: 10.90157699584961
+layer-28 hs entropy: 38.1491584777832
 --------------------------------------------------------------------------------
 token-29
-layer- 0 hs entropy: tensor([37.9298], device='cuda:0')
-layer- 1 hs entropy: tensor([101.1728], device='cuda:0')
-layer- 2 hs entropy: tensor([139.2659], device='cuda:0')
-layer- 3 hs entropy: tensor([139.0859], device='cuda:0')
-layer- 4 hs entropy: tensor([134.3233], device='cuda:0')
-layer- 5 hs entropy: tensor([141.2739], device='cuda:0')
-layer- 6 hs entropy: tensor([135.7375], device='cuda:0')
-layer- 7 hs entropy: tensor([122.6549], device='cuda:0')
-layer- 8 hs entropy: tensor([125.5873], device='cuda:0')
-layer- 9 hs entropy: tensor([121.8520], device='cuda:0')
-layer-10 hs entropy: tensor([127.2299], device='cuda:0')
-layer-11 hs entropy: tensor([116.6011], device='cuda:0')
-layer-12 hs entropy: tensor([110.6932], device='cuda:0')
-layer-13 hs entropy: tensor([102.3111], device='cuda:0')
-layer-14 hs entropy: tensor([94.2084], device='cuda:0')
-layer-15 hs entropy: tensor([91.3912], device='cuda:0')
-layer-16 hs entropy: tensor([77.9994], device='cuda:0')
-layer-17 hs entropy: tensor([60.8044], device='cuda:0')
-layer-18 hs entropy: tensor([56.7735], device='cuda:0')
-layer-19 hs entropy: tensor([44.9235], device='cuda:0')
-layer-20 hs entropy: tensor([30.7108], device='cuda:0')
-layer-21 hs entropy: tensor([27.9737], device='cuda:0')
-layer-22 hs entropy: tensor([27.3044], device='cuda:0')
-layer-23 hs entropy: tensor([19.5246], device='cuda:0')
-layer-24 hs entropy: tensor([20.1766], device='cuda:0')
-layer-25 hs entropy: tensor([14.7402], device='cuda:0')
-layer-26 hs entropy: tensor([11.7661], device='cuda:0')
-layer-27 hs entropy: tensor([14.4623], device='cuda:0')
-layer-28 hs entropy: tensor([36.6923], device='cuda:0')
+layer- 0 hs entropy: 37.929840087890625
+layer- 1 hs entropy: 101.17277526855469
+layer- 2 hs entropy: 139.2659149169922
+layer- 3 hs entropy: 139.08587646484375
+layer- 4 hs entropy: 134.32327270507812
+layer- 5 hs entropy: 141.27391052246094
+layer- 6 hs entropy: 135.737548828125
+layer- 7 hs entropy: 122.65492248535156
+layer- 8 hs entropy: 125.58734130859375
+layer- 9 hs entropy: 121.85197448730469
+layer-10 hs entropy: 127.22988891601562
+layer-11 hs entropy: 116.60108947753906
+layer-12 hs entropy: 110.69316101074219
+layer-13 hs entropy: 102.31112670898438
+layer-14 hs entropy: 94.20838165283203
+layer-15 hs entropy: 91.3912124633789
+layer-16 hs entropy: 77.99942016601562
+layer-17 hs entropy: 60.804405212402344
+layer-18 hs entropy: 56.773502349853516
+layer-19 hs entropy: 44.92348861694336
+layer-20 hs entropy: 30.710765838623047
+layer-21 hs entropy: 27.97365951538086
+layer-22 hs entropy: 27.30435562133789
+layer-23 hs entropy: 19.524559020996094
+layer-24 hs entropy: 20.17659568786621
+layer-25 hs entropy: 14.740160942077637
+layer-26 hs entropy: 11.76612663269043
+layer-27 hs entropy: 14.462278366088867
+layer-28 hs entropy: 36.692298889160156
 --------------------------------------------------------------------------------
 token-30
-layer- 0 hs entropy: tensor([37.8181], device='cuda:0')
-layer- 1 hs entropy: tensor([125.9365], device='cuda:0')
-layer- 2 hs entropy: tensor([129.7579], device='cuda:0')
-layer- 3 hs entropy: tensor([128.4351], device='cuda:0')
-layer- 4 hs entropy: tensor([137.6058], device='cuda:0')
-layer- 5 hs entropy: tensor([130.3684], device='cuda:0')
-layer- 6 hs entropy: tensor([130.2609], device='cuda:0')
-layer- 7 hs entropy: tensor([129.0474], device='cuda:0')
-layer- 8 hs entropy: tensor([130.7030], device='cuda:0')
-layer- 9 hs entropy: tensor([121.7092], device='cuda:0')
-layer-10 hs entropy: tensor([120.3388], device='cuda:0')
-layer-11 hs entropy: tensor([99.7145], device='cuda:0')
-layer-12 hs entropy: tensor([101.5536], device='cuda:0')
-layer-13 hs entropy: tensor([99.9571], device='cuda:0')
-layer-14 hs entropy: tensor([92.6700], device='cuda:0')
-layer-15 hs entropy: tensor([87.1457], device='cuda:0')
-layer-16 hs entropy: tensor([77.8757], device='cuda:0')
-layer-17 hs entropy: tensor([66.3586], device='cuda:0')
-layer-18 hs entropy: tensor([48.8577], device='cuda:0')
-layer-19 hs entropy: tensor([40.9396], device='cuda:0')
-layer-20 hs entropy: tensor([32.8394], device='cuda:0')
-layer-21 hs entropy: tensor([25.2918], device='cuda:0')
-layer-22 hs entropy: tensor([22.2133], device='cuda:0')
-layer-23 hs entropy: tensor([18.0952], device='cuda:0')
-layer-24 hs entropy: tensor([14.1623], device='cuda:0')
-layer-25 hs entropy: tensor([15.3780], device='cuda:0')
-layer-26 hs entropy: tensor([14.4320], device='cuda:0')
-layer-27 hs entropy: tensor([17.5621], device='cuda:0')
-layer-28 hs entropy: tensor([39.7620], device='cuda:0')
+layer- 0 hs entropy: 37.818050384521484
+layer- 1 hs entropy: 125.93649291992188
+layer- 2 hs entropy: 129.75791931152344
+layer- 3 hs entropy: 128.43507385253906
+layer- 4 hs entropy: 137.60577392578125
+layer- 5 hs entropy: 130.36843872070312
+layer- 6 hs entropy: 130.26092529296875
+layer- 7 hs entropy: 129.04742431640625
+layer- 8 hs entropy: 130.70301818847656
+layer- 9 hs entropy: 121.709228515625
+layer-10 hs entropy: 120.3387680053711
+layer-11 hs entropy: 99.71450805664062
+layer-12 hs entropy: 101.55364990234375
+layer-13 hs entropy: 99.95709228515625
+layer-14 hs entropy: 92.67002868652344
+layer-15 hs entropy: 87.14569091796875
+layer-16 hs entropy: 77.87574768066406
+layer-17 hs entropy: 66.358642578125
+layer-18 hs entropy: 48.85771560668945
+layer-19 hs entropy: 40.939605712890625
+layer-20 hs entropy: 32.839420318603516
+layer-21 hs entropy: 25.291759490966797
+layer-22 hs entropy: 22.213314056396484
+layer-23 hs entropy: 18.09521484375
+layer-24 hs entropy: 14.162315368652344
+layer-25 hs entropy: 15.377973556518555
+layer-26 hs entropy: 14.431957244873047
+layer-27 hs entropy: 17.562103271484375
+layer-28 hs entropy: 39.76195526123047
 --------------------------------------------------------------------------------
 token-31
-layer- 0 hs entropy: tensor([40.9394], device='cuda:0')
-layer- 1 hs entropy: tensor([82.0877], device='cuda:0')
-layer- 2 hs entropy: tensor([100.2905], device='cuda:0')
-layer- 3 hs entropy: tensor([112.3441], device='cuda:0')
-layer- 4 hs entropy: tensor([138.8896], device='cuda:0')
-layer- 5 hs entropy: tensor([130.1018], device='cuda:0')
-layer- 6 hs entropy: tensor([134.8921], device='cuda:0')
-layer- 7 hs entropy: tensor([123.3528], device='cuda:0')
-layer- 8 hs entropy: tensor([129.3189], device='cuda:0')
-layer- 9 hs entropy: tensor([133.3204], device='cuda:0')
-layer-10 hs entropy: tensor([137.7567], device='cuda:0')
-layer-11 hs entropy: tensor([134.0993], device='cuda:0')
-layer-12 hs entropy: tensor([123.2201], device='cuda:0')
-layer-13 hs entropy: tensor([122.5309], device='cuda:0')
-layer-14 hs entropy: tensor([119.0743], device='cuda:0')
-layer-15 hs entropy: tensor([122.9404], device='cuda:0')
-layer-16 hs entropy: tensor([96.8852], device='cuda:0')
-layer-17 hs entropy: tensor([90.7365], device='cuda:0')
-layer-18 hs entropy: tensor([62.0803], device='cuda:0')
-layer-19 hs entropy: tensor([53.7328], device='cuda:0')
-layer-20 hs entropy: tensor([39.1190], device='cuda:0')
-layer-21 hs entropy: tensor([35.1043], device='cuda:0')
-layer-22 hs entropy: tensor([25.5910], device='cuda:0')
-layer-23 hs entropy: tensor([25.8050], device='cuda:0')
-layer-24 hs entropy: tensor([22.8355], device='cuda:0')
-layer-25 hs entropy: tensor([15.9869], device='cuda:0')
-layer-26 hs entropy: tensor([14.0618], device='cuda:0')
-layer-27 hs entropy: tensor([13.6355], device='cuda:0')
-layer-28 hs entropy: tensor([51.4045], device='cuda:0')
+layer- 0 hs entropy: 40.93938446044922
+layer- 1 hs entropy: 82.08769226074219
+layer- 2 hs entropy: 100.29048919677734
+layer- 3 hs entropy: 112.34407043457031
+layer- 4 hs entropy: 138.88961791992188
+layer- 5 hs entropy: 130.10179138183594
+layer- 6 hs entropy: 134.89212036132812
+layer- 7 hs entropy: 123.35277557373047
+layer- 8 hs entropy: 129.3188934326172
+layer- 9 hs entropy: 133.3203887939453
+layer-10 hs entropy: 137.75668334960938
+layer-11 hs entropy: 134.09933471679688
+layer-12 hs entropy: 123.22005462646484
+layer-13 hs entropy: 122.53093719482422
+layer-14 hs entropy: 119.07429504394531
+layer-15 hs entropy: 122.94037628173828
+layer-16 hs entropy: 96.88516998291016
+layer-17 hs entropy: 90.73654174804688
+layer-18 hs entropy: 62.080299377441406
+layer-19 hs entropy: 53.732765197753906
+layer-20 hs entropy: 39.11902618408203
+layer-21 hs entropy: 35.10426712036133
+layer-22 hs entropy: 25.59103775024414
+layer-23 hs entropy: 25.805004119873047
+layer-24 hs entropy: 22.83547592163086
+layer-25 hs entropy: 15.986907958984375
+layer-26 hs entropy: 14.061836242675781
+layer-27 hs entropy: 13.635451316833496
+layer-28 hs entropy: 51.40449523925781
 output_text  : Large language model is a type of artificial intelligence that can understand and process a large amount of text. It is used in various fields such as healthcare, finance, and education. However
