@@ -21,6 +21,21 @@ DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
 TOPK = 32
 
+
+def entropy(p, dim=-1, keepdim=False, eps=1e-12):
+    """计算概率分布的信息熵 H(p) = -Σ p(x) * log(p(x))
+    
+    参数:
+        p: 输入张量，表示概率分布
+        dim: 计算熵的维度
+        keepdim: 是否保留计算维度
+        eps: 数值稳定性的小常数
+    """
+    p = torch.clamp(p, min=eps, max=1.0)
+    entropy = -torch.sum(p * torch.log(p), dim=dim, keepdim=keepdim)
+    return entropy
+
+
 def timer_decorator(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -80,8 +95,8 @@ def generate(model, tokenizer):
     token_view_body.append(["SameCnt"])
     token_view_header = ["Index(T&L)", *[f"Token-{i:02}" for i in range(n_token)]]
     for i_tokens, token_hidden_state in enumerate(hidden_states):
-        # print("-" * 80)
-        # print(f"token-{i_tokens}")
+        print("-" * 80)
+        print(f"token-{i_tokens}")
         out = {}
         last_token_id = None
         cnt_same_with_last_token_id = 0
@@ -93,6 +108,7 @@ def generate(model, tokenizer):
             hs_topk_v = hs_topk.values.tolist()
             hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
             # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
+            print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)}")
 
             if i_layer == 28:
                 last_token_hidden_state_norm = last_token_hidden_state
@@ -109,7 +125,7 @@ def generate(model, tokenizer):
             token_view_body[i_layer].append(repr(f"<{token}>"))
         token_view_body[n_layer].append(cnt_same_with_last_token_id)
     token_view = [token_view_header, *token_view_body]
-    print(f"{token_view_body}")
+    # print(f"{token_view_body}")
     with open("layer_token.csv", 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerows(token_view)
