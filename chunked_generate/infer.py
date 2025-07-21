@@ -135,6 +135,23 @@ def generate_chunked(model, tokenizer):
     print(f"bs_indices: {bs_indices}")
 
 
+    slen = len(input_ids[0])
+    attention_mask = torch.zeros(slen, slen)
+    for i in range(slen):
+        for j in range(slen):
+            if j < slen - PAD_LEN:
+                attention_mask[i, j] = 1
+    model_inputs["attention_mask"] = attention_mask
+    # print(f"attention_mask: {attention_mask}")
+    out = model.generate(model_inputs.input_ids, max_new_tokens=8, do_sample=False, output_scores=True,
+        return_dict_in_generate=True, output_hidden_states=True, use_cache=USE_CACHE,)
+    out_first_token_last_layer = out.hidden_states[0][-1]
+    logits = model.lm_head(out_first_token_last_layer)
+    indices = logits.topk(4).indices
+    bs_indices = indices
+    # bs_indices = indices.reshape(indices.shape[:2])
+    print(f"bs_indices: {bs_indices}")
+
     generated_ids = out["sequences"]
     
     return generated_ids
