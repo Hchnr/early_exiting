@@ -153,6 +153,7 @@ def generate_chunked(model, tokenizer):
     print(f"bs_indices: {bs_indices}")
 
     generated_ids = out["sequences"]
+    import pdb; pdb.set_trace()
     
     return generated_ids
     

@@ -15,11 +15,13 @@ PRINT_TIME = False
 TEST_NUM = 1
 PRINT_LOGITS = False
 PRINT_OUTPUT_TOKEN_IDS = False
+PRINT_ENTROPY = False
 NEW_MAX_TOKENS = 32
 USE_CACHE = True
 DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
 TOPK = 32
+EPS=1e-10
 
 
 def entropy(p, dim=-1, keepdim=False, eps=1e-12):
@@ -84,7 +86,14 @@ def generate(model, tokenizer):
     # tuple(n_layer) [b, a, s, ha]
     key_cache = out.past_key_values.key_cache
     value_cache = out.past_key_values.value_cache
-    torch.linalg.svdvals(key_cache[0])
+    for i in range(len(key_cache)):
+        print("-" * 10, f"Layers-{i:02}", "-" * 10)
+        k_svdvals = torch.linalg.svdvals(key_cache[i])
+        k_rank = torch.sum(k_svdvals > EPS).item()
+        v_svdvals = torch.linalg.svdvals(value_cache[i])
+        v_rank = torch.sum(v_svdvals > EPS).item()
+        print(f"{k_rank=}")
+        print(f"{v_rank=}")
 
     generated_ids = out["sequences"]
     if PRINT_LOGITS:
@@ -101,8 +110,9 @@ def generate(model, tokenizer):
     token_view_body.append(["SameCnt"])
     token_view_header = ["Index(T&L)", *[f"Token-{i:02}" for i in range(n_token)]]
     for i_tokens, token_hidden_state in enumerate(hidden_states):
-        print("-" * 80)
-        print(f"token-{i_tokens}")
+        if PRINT_ENTROPY:
+            print("-" * 80)
+            print(f"token-{i_tokens}")
         out = {}
         last_token_id = None
         cnt_same_with_last_token_id = 0
@@ -114,7 +124,8 @@ def generate(model, tokenizer):
             hs_topk_v = hs_topk.values.tolist()
             hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
             # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
-            print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)[0].item()}")
+            if PRINT_ENTROPY:
+                print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)[0].item()}")
 
             if i_layer == 28:
                 last_token_hidden_state_norm = last_token_hidden_state
