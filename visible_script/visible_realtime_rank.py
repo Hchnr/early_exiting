@@ -16,7 +16,7 @@ TEST_NUM = 1
 PRINT_LOGITS = False
 PRINT_OUTPUT_TOKEN_IDS = False
 PRINT_ENTROPY = False
-NEW_MAX_TOKENS = 32
+NEW_MAX_TOKENS = 1024
 USE_CACHE = True
 DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
@@ -101,51 +101,53 @@ def generate(model, tokenizer):
         for i, logit in enumerate(logits):
             print(f"logits[{i}].shape: {logit.shape}")
             print(f"logits.topk(8): {logit.topk(8, dim=-1)[0].squeeze().tolist()}")
-    # hidden_states: tuple(32, 29) tensor(1,4,1024)
-    # hidden_states: tuple(n_max_new_tokens, n_layer+1) tensor(b,s,h)
-    hidden_states = out["hidden_states"]
-    n_token, n_layer = len(hidden_states), len(hidden_states[0])
-    topk_value, topk_pos = [], []
-    token_view_body = [[f"Layer-{i:02}"] for i in range(n_layer)]
-    token_view_body.append(["SameCnt"])
-    token_view_header = ["Index(T&L)", *[f"Token-{i:02}" for i in range(n_token)]]
-    for i_tokens, token_hidden_state in enumerate(hidden_states):
-        if PRINT_ENTROPY:
-            print("-" * 80)
-            print(f"token-{i_tokens}")
-        out = {}
-        last_token_id = None
-        cnt_same_with_last_token_id = 0
-        for i_layer, layer_hidden_state in enumerate(token_hidden_state):
-            # layer_hidden_state: [b, num_token, h] -> [1, 4, 1024]
-            last_token_hidden_state = layer_hidden_state[:,-1,:]
-            # out_logits = model.lm_head(last_token_hidden_state)
-            hs_topk = last_token_hidden_state.topk(TOPK, dim=-1, sorted=True)
-            hs_topk_v = hs_topk.values.tolist()
-            hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
-            # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
-            if PRINT_ENTROPY:
-                print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)[0].item()}")
 
-            if i_layer == 28:
-                last_token_hidden_state_norm = last_token_hidden_state
-            else:
-                last_token_hidden_state_norm = model.model.norm(last_token_hidden_state)
-            logits = model.lm_head(last_token_hidden_state_norm)
-            token_id = logits.topk(1).indices[0][0].item()
-            if token_id == last_token_id:
-                cnt_same_with_last_token_id += 1
-            else:
-                cnt_same_with_last_token_id = 0
-                last_token_id = token_id
-            token = tokenizer.decode(token_id)
-            token_view_body[i_layer].append(repr(f"<{token}>"))
-        token_view_body[n_layer].append(cnt_same_with_last_token_id)
-    token_view = [token_view_header, *token_view_body]
-    # print(f"{token_view_body}")
-    with open("layer_token.csv", 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerows(token_view)
+    if PRINT_ENTROPY:
+        # hidden_states: tuple(32, 29) tensor(1,4,1024)
+        # hidden_states: tuple(n_max_new_tokens, n_layer+1) tensor(b,s,h)
+        hidden_states = out["hidden_states"]
+        n_token, n_layer = len(hidden_states), len(hidden_states[0])
+        topk_value, topk_pos = [], []
+        token_view_body = [[f"Layer-{i:02}"] for i in range(n_layer)]
+        token_view_body.append(["SameCnt"])
+        token_view_header = ["Index(T&L)", *[f"Token-{i:02}" for i in range(n_token)]]
+        for i_tokens, token_hidden_state in enumerate(hidden_states):
+            if PRINT_ENTROPY:
+                print("-" * 80)
+                print(f"token-{i_tokens}")
+            out = {}
+            last_token_id = None
+            cnt_same_with_last_token_id = 0
+            for i_layer, layer_hidden_state in enumerate(token_hidden_state):
+                # layer_hidden_state: [b, num_token, h] -> [1, 4, 1024]
+                last_token_hidden_state = layer_hidden_state[:,-1,:]
+                # out_logits = model.lm_head(last_token_hidden_state)
+                hs_topk = last_token_hidden_state.topk(TOPK, dim=-1, sorted=True)
+                hs_topk_v = hs_topk.values.tolist()
+                hs_topk_vs = [float(f"{v:.2f}") for v in hs_topk_v[0]]
+                # print(f"layer-{i_layer:2}: {hs_topk.indices.tolist()}\n    {hs_topk_vs}")
+                if PRINT_ENTROPY:
+                    print(f"layer-{i_layer:2} hs entropy: {entropy(last_token_hidden_state)[0].item()}")
+
+                if i_layer == 28:
+                    last_token_hidden_state_norm = last_token_hidden_state
+                else:
+                    last_token_hidden_state_norm = model.model.norm(last_token_hidden_state)
+                logits = model.lm_head(last_token_hidden_state_norm)
+                token_id = logits.topk(1).indices[0][0].item()
+                if token_id == last_token_id:
+                    cnt_same_with_last_token_id += 1
+                else:
+                    cnt_same_with_last_token_id = 0
+                    last_token_id = token_id
+                token = tokenizer.decode(token_id)
+                token_view_body[i_layer].append(repr(f"<{token}>"))
+            token_view_body[n_layer].append(cnt_same_with_last_token_id)
+        token_view = [token_view_header, *token_view_body]
+        # print(f"{token_view_body}")
+        with open("layer_token.csv", 'w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerows(token_view)
     return generated_ids
 
 
