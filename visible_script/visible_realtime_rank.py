@@ -16,7 +16,7 @@ TEST_NUM = 1
 PRINT_LOGITS = False
 PRINT_OUTPUT_TOKEN_IDS = False
 PRINT_ENTROPY = False
-NEW_MAX_TOKENS = 1024
+NEW_MAX_TOKENS = 512
 USE_CACHE = True
 DO_ORIGIN_INFER = True
 DO_SWAP_INFER = False
@@ -82,7 +82,6 @@ def generate(model, tokenizer):
         output_hidden_states=True,
         use_cache=USE_CACHE,
     )
-    import pdb; pdb.set_trace()
     # tuple(n_layer) [b, a, s, ha]
     key_cache = out.past_key_values.key_cache
     value_cache = out.past_key_values.value_cache
@@ -92,6 +91,8 @@ def generate(model, tokenizer):
         k_rank = torch.sum(k_svdvals > EPS).item()
         v_svdvals = torch.linalg.svdvals(value_cache[i])
         v_rank = torch.sum(v_svdvals > EPS).item()
+        print(f"{v_svdvals.shape=}")
+        print(f"{key_cache[i].shape=}")
         print(f"{k_rank=}")
         print(f"{v_rank=}")
 
